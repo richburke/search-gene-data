@@ -27,3 +27,5 @@ Open up 2 console windows.  In the first, navigate to the root of the Django pro
 2. Add filtering on a resulting dataset.
 
 ### Screenshots
+![Before search](/resources/screenshot00.png?raw=true "Before search")
+![After search](/resources/screenshot01.png?raw=true "Before search")
