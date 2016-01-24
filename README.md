@@ -4,9 +4,9 @@
 Searches gene data based upon supplied criteria.
 
 ### How to use
-1. Choose the field you'd like to filter on, either _name_ or _chromosome_.
+1. Choose the field you'd like to filter by, either _name_ or _chromosome_.
 2. Enter a value into the input box.  Once you enter a value with a length greater than 3 characters, you'll see the option to initiate your search.
-3. Sort on the resulting dataset by clicking the column headers.
+3. Sort the resulting dataset by clicking the column headers.
 4. If you wish, clear the search by clicking the _(X)_ and starting again.
 
 ### Deployment instructions
@@ -23,7 +23,7 @@ Run `npm install`.
 Open up 2 console windows.  In the first, navigate to the root of the Django project and type `python manage.py runserver`.  In the second, in the root of the project, enter `webpack -w`.
 
 ### To dos
-1. Add export functionality, as a .csv, .xls, or .json file.
+1. Add export functionality, as a `.csv`, `.xls`, or `.json` file.
 2. Add filtering on a resulting dataset.
 
 ### Screenshots
