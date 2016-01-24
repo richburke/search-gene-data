@@ -6,4 +6,5 @@ public/bundle.js
 public/bundle.js.map
 resources/*.json
 resources/*.docx
+resources/.~lock*
 assets/.DS_Store
