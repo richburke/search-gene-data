@@ -1,0 +1,3968 @@
+
+/* - ++resource++jquery.css - */
+@media all {
+/* https://sfari.org/portal_css/++resource++jquery.css?original=1 */
+/* */
+
+}
+
+
+/* - ++resource++jquery.tokeninput.mac.css - */
+@media all {
+/* https://sfari.org/portal_css/++resource++jquery.tokeninput.mac.css?original=1 */
+/* */
+fieldset.token-input-mac {
+position: relative;
+padding: 0;
+margin: 5px 0;
+background: #fff;
+width: 400px;
+border: 1px solid #A4BDEC;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+}
+fieldset.token-input-mac.token-input-dropdown-mac {
+border-radius: 10px 10px 0 0;
+-moz-border-radius: 10px 10px 0 0;
+-webkit-border-radius: 10px 10px 0 0;
+box-shadow: 0 5px 20px 0 rgba(0,0,0,0.25);
+-moz-box-shadow: 0 5px 20px 0 rgba(0,0,0,0.25);
+-webkit-box-shadow: 0 5px 20px 0 rgba(0,0,0,0.25);
+}
+ul.token-input-list-mac {
+overflow: hidden;
+height: auto !important;
+height: 1%;
+cursor: text;
+font-size: 12px;
+font-family: Verdana;
+min-height: 1px;
+z-index: 999;
+margin: 0;
+padding: 3px;
+background: transparent;
+}
+ul.token-input-list-mac.error {
+border: 1px solid #C52020;
+}
+ul.token-input-list-mac li {
+list-style-type: none;
+}
+li.token-input-token-mac p {
+display: inline;
+padding: 0;
+margin: 0;
+}
+li.token-input-token-mac span {
+color: #a6b3cf;
+margin-left: 5px;
+font-weight: bold;
+cursor: pointer;
+}
+/* */
+li.token-input-token-mac {
+font-family: "Lucida Grande", Arial, serif;
+font-size: 9pt;
+line-height: 12pt;
+overflow: hidden;
+height: 16px;
+margin: 3px;
+padding: 0 10px;
+background: none;
+background-color: #dee7f8;
+color: #000;
+cursor: default;
+border: 1px solid #a4bdec;
+border-radius: 15px;
+-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+float: left;
+}
+li.token-input-highlighted-token-mac {
+background-color: #bbcef1;
+border: 1px solid #598bec;
+color: #000;
+}
+li.token-input-selected-token-mac {
+background-color: #598bec;
+border: 1px solid transparent;
+color: #fff;
+}
+li.token-input-highlighted-token-mac span.token-input-delete-token-mac {
+color: #000;
+}
+li.token-input-selected-token-mac span.token-input-delete-token-mac {
+color: #fff;
+}
+li.token-input-input-token-mac {
+border: none;
+background: transparent;
+float: left;
+padding: 0;
+margin: 0;
+}
+li.token-input-input-token-mac input {
+border: 0;
+width: 100px;
+padding: 3px;
+background-color: transparent;
+margin: 0;
+}
+div.token-input-dropdown-mac {
+position: absolute;
+border: 1px solid #A4BDEC;
+border-top: none;
+left: -1px;
+right: -1px;
+background-color: #fff;
+overflow: hidden;
+cursor: default;
+font-size: 10pt;
+font-family: "Lucida Grande", Arial, serif;
+padding: 5px;
+border-radius: 0 0 10px 10px;
+-moz-border-radius: 0 0 10px 10px;
+-webkit-border-radius: 0 0 10px 10px;
+box-shadow: 0 5px 20px 0 rgba(0,0,0,0.25);
+-moz-box-shadow: 0 5px 20px 0 rgba(0,0,0,0.25);
+-webkit-box-shadow: 0 5px 20px 0 rgba(0,0,0,0.25);
+clip:rect(0px, 1000px, 1000px, -10px);
+}
+div.token-input-dropdown-mac p {
+font-size: 8pt;
+margin: 0;
+padding: 0 5px;
+font-style: italic;
+color: #aaa;
+}
+div.token-input-dropdown-mac h3.token-input-dropdown-category-mac {
+font-family: "Lucida Grande", Arial, serif;
+font-size: 10pt;
+font-weight: bold;
+border: none;
+padding: 0 5px;
+margin: 0;
+}
+div.token-input-dropdown-mac ul {
+margin: 0;
+padding: 0;
+}
+div.token-input-dropdown-mac ul li {
+list-style-type: none;
+cursor: pointer;
+background: none;
+background-color: #fff;
+margin: 0;
+padding: 0 0 0 25px;
+}
+div.token-input-dropdown-mac ul li.token-input-dropdown-item-mac {
+background-color: #fff;
+}
+div.token-input-dropdown-mac ul li.token-input-dropdown-item-mac.odd {
+background-color: #ECF4F9;
+border-radius: 15px;
+-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+}
+div.token-input-dropdown-mac ul li.token-input-dropdown-item-mac span.token-input-dropdown-item-description-mac {
+float: right;
+font-size: 8pt;
+font-style: italic;
+padding: 0 10px 0 0;
+color: #999;
+}
+div.token-input-dropdown-mac ul li strong {
+font-weight: bold;
+text-decoration: underline;
+font-style: none;
+}
+div.token-input-dropdown-mac ul li.token-input-selected-dropdown-item-mac,
+div.token-input-dropdown-mac ul li.token-input-selected-dropdown-item-mac.odd {
+background-color: #598bec;
+color: #fff;
+border-radius: 15px;
+-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+}
+div.token-input-dropdown-mac ul li.token-input-selected-dropdown-item-mac span.token-input-dropdown-item-description-mac,
+div.token-input-dropdown-mac ul li.token-input-selected-dropdown-item-mac.odd span.token-input-dropdown-item-description-mac {
+color: #fff;
+}
+
+}
+
+
+/* - ++resource++jquery.tokeninput.facebook.css - */
+@media all {
+/* https://sfari.org/portal_css/++resource++jquery.tokeninput.facebook.css?original=1 */
+/* */
+ul.token-input-list-facebook {
+overflow: hidden;
+height: auto !important;
+height: 1%;
+width: 400px;
+border: 1px solid #8496ba;
+cursor: text;
+font-size: 12px;
+font-family: Verdana;
+min-height: 1px;
+z-index: 999;
+margin: 0;
+padding: 0;
+background-color: #fff;
+list-style-type: none;
+clear: left;
+}
+ul.token-input-list-facebook li input {
+border: 0;
+width: 100px;
+padding: 3px 8px;
+background-color: white;
+margin: 2px 0;
+-webkit-appearance: caret;
+}
+li.token-input-token-facebook {
+overflow: hidden;
+height: auto !important;
+height: 15px;
+margin: 3px;
+padding: 1px 3px;
+background-color: #eff2f7;
+color: #000;
+cursor: default;
+border: 1px solid #ccd5e4;
+font-size: 11px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+float: left;
+white-space: nowrap;
+}
+li.token-input-token-facebook p {
+display: inline;
+padding: 0;
+margin: 0;
+}
+li.token-input-token-facebook span {
+color: #a6b3cf;
+margin-left: 5px;
+font-weight: bold;
+cursor: pointer;
+}
+li.token-input-selected-token-facebook {
+background-color: #5670a6;
+border: 1px solid #3b5998;
+color: #fff;
+}
+li.token-input-input-token-facebook {
+float: left;
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+div.token-input-dropdown-facebook {
+position: absolute;
+width: 400px;
+background-color: #fff;
+overflow: hidden;
+border-left: 1px solid #ccc;
+border-right: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+cursor: default;
+font-size: 11px;
+font-family: Verdana;
+z-index: 1;
+}
+div.token-input-dropdown-facebook p {
+margin: 0;
+padding: 5px;
+font-weight: bold;
+color: #777;
+}
+div.token-input-dropdown-facebook ul {
+margin: 0;
+padding: 0;
+}
+div.token-input-dropdown-facebook ul li {
+background-color: #fff;
+padding: 3px;
+margin: 0;
+list-style-type: none;
+}
+div.token-input-dropdown-facebook ul li.token-input-dropdown-item-facebook {
+background-color: #fff;
+}
+div.token-input-dropdown-facebook ul li.token-input-dropdown-item2-facebook {
+background-color: #fff;
+}
+div.token-input-dropdown-facebook ul li em {
+font-weight: bold;
+font-style: normal;
+}
+div.token-input-dropdown-facebook ul li.token-input-selected-dropdown-item-facebook {
+background-color: #3b5998;
+color: #fff;
+}
+}
+
+
+/* - ++resource++jquery.tokeninput.css - */
+@media all {
+/* https://sfari.org/portal_css/++resource++jquery.tokeninput.css?original=1 */
+ul.token-input-list {
+overflow: hidden;
+height: auto !important;
+height: 1%;
+width: 400px;
+border: 1px solid #999;
+cursor: text;
+font-size: 12px;
+font-family: Verdana;
+z-index: 999;
+margin: 0;
+padding: 0;
+background-color: #fff;
+list-style-type: none;
+clear: left;
+}
+ul.token-input-list li {
+list-style-type: none;
+}
+ul.token-input-list li input {
+border: 0;
+width: 350px;
+padding: 3px 8px;
+background-color: white;
+-webkit-appearance: caret;
+}
+li.token-input-token {
+overflow: hidden;
+height: auto !important;
+height: 1%;
+margin: 3px;
+padding: 3px 5px;
+background-color: #d0efa0;
+color: #000;
+font-weight: bold;
+cursor: default;
+display: block;
+}
+li.token-input-token p {
+float: left;
+padding: 0;
+margin: 0;
+}
+li.token-input-token span {
+float: right;
+color: #777;
+cursor: pointer;
+}
+li.token-input-selected-token {
+background-color: #08844e;
+color: #fff;
+}
+li.token-input-selected-token span {
+color: #bbb;
+}
+div.token-input-dropdown {
+position: absolute;
+width: 400px;
+background-color: #fff;
+overflow: hidden;
+border-left: 1px solid #ccc;
+border-right: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+cursor: default;
+font-size: 12px;
+font-family: Verdana;
+z-index: 1;
+}
+div.token-input-dropdown p {
+margin: 0;
+padding: 5px;
+font-weight: bold;
+color: #777;
+}
+div.token-input-dropdown ul {
+margin: 0;
+padding: 0;
+}
+div.token-input-dropdown ul li {
+background-color: #fff;
+padding: 3px;
+list-style-type: none;
+}
+div.token-input-dropdown ul li.token-input-dropdown-item {
+background-color: #fafafa;
+}
+div.token-input-dropdown ul li.token-input-dropdown-item2 {
+background-color: #fff;
+}
+div.token-input-dropdown ul li em {
+font-weight: bold;
+font-style: normal;
+}
+div.token-input-dropdown ul li.token-input-selected-dropdown-item {
+background-color: #d0efa0;
+}
+
+}
+
+
+/* - public.css - */
+@media screen {
+/* https://sfari.org/portal_css/public.css?original=1 */
+/* */
+/* */
+* { margin: 0; padding: 0; }
+* :link,:visited { text-decoration:none }
+* ul,ol { list-style:none; }
+* li { display: inline; }
+* h1,h2,h3,h4,h5,h6,pre,code { font-size: 12px; }
+* a img,:link img,:visited img { border:none }
+a { outline: none; }
+table { border-spacing: 0; }
+img { vertical-align: text-bottom; }
+/* */
+body {
+font: 12px Arial, sans-serif;
+background-color: #ffffff;
+color: #333333;
+}
+body.largeText {
+font-size: 125%;
+}
+body.smallText {
+font-size: 85%;
+}
+h1, h2, h3, h4, h5, h6 {
+font-family: Arial, sans-serif;
+font-weight: bold;
+color: #333333;
+line-height: 1.5em;
+}
+h1 {
+font-size: 22px;
+}
+h2 {
+font-size: 18px;
+}
+h3 {
+font-size: 16px;
+}
+h4 {
+font-size: 14px;
+}
+h5 {
+font-size: 12px;
+}
+h6 {
+font-size: 10px;
+}
+a,
+a:visited {
+color: #205C90;
+}
+a:active {
+color: #205C90;
+}
+a:hover {
+color: #000000;
+}
+a:focus img {
+outline: none;
+}
+dt {
+font-weight: bold;
+}
+input {
+font-family: Arial, sans-serif;
+}
+td {
+vertical-align: top;
+}
+/* */
+.hiddenStructure {
+display: none;
+background: transparent;
+background-image: none; /* */
+border: none;
+height: 0.1em;
+overflow: hidden;
+padding: 0;
+margin: -0.1em 0 0 -0.1em;
+width: 1px;
+}
+#content .visualNoMarker {
+list-style:none;
+margin-left: 0;
+}
+.visualClear {
+clear: both;
+}
+/* */
+#visual-portal-wrapper {
+padding: 0 10px;
+}
+#portal-header {
+position: relative;
+z-index: 2;
+}
+#portal-columns {
+width: 100%;
+}
+#portal-column-one {
+width: 25%;
+}
+#portal-column-one .visualPadding {
+padding-right: 1em;
+}
+#portal-column-two {
+width: 25%;
+}
+#portal-column-two .visualPadding {
+padding-left: 1em;
+}
+/* */
+/* */
+#portal-logo {
+margin: 10px 0;
+float: left;
+}
+/* */
+#portal-globalnav {
+clear: both;
+background: #dddddd;
+margin: 0 0 10px 0;
+}
+#portal-globalnav a {
+display: inline-block;
+padding: 10px;
+background: #dddddd;
+white-space: normal;
+border-right: 1px solid white;
+}
+#portal-globalnav .selected a,
+#portal-globalnav a:hover {
+background: #205C90;
+color: #ffffff;
+}
+/* */
+#portal-personaltools {
+float: right;
+background: #eeeeee;
+position: relative;
+z-index: 3; /* */
+top: 0;
+right: 0;
+}
+#portal-personaltools .actionMenuHeader,
+#anon-personalbar a {
+font-weight: normal;
+padding: 0.25em 0.5em;
+}
+#portal-personaltools .actionMenuHeader a:after {
+content: " ▼";
+}
+#portal-personaltools .actionMenuContent {
+right: 0;
+padding-top: 0.5em;
+}
+#portal-personaltools .actionMenuContent {
+background: #eeeeee;
+padding-bottom: 0.5em;
+line-height: 2em;
+}
+#portal-personaltools .actionMenuContent a {
+padding: 0 0.75em;
+}
+#portal-personaltools .actionMenuContent a:hover {
+background: #205C90;
+color: #ffffff;
+}
+/* */
+#portal-languageselector {
+float: right;
+background: #eeeeee;
+position: relative;
+top: 0;
+right: 1px;
+z-index: 3; /* */
+padding: 0.25em 0.5em;
+font-size: 80%;
+max-width: 50%;
+}
+/* */
+#portal-searchbox {
+float: right;
+text-align: left;
+clear: right;
+margin: 1.2em 0;
+font-size: 12px;
+padding-right: 5px;
+}
+#portal-searchbox label {
+font-weight: normal;
+}
+#searchGadget {
+width: 13em;
+}
+#content .searchField {
+margin-bottom: 1em;
+}
+.searchSection {
+color: #666666;
+margin-top: 0.25em;
+}
+.searchSection label:hover {
+color: #000000;
+}
+/* */
+.collapsible .collapser.collapsed {
+padding-right: 14px;
+background: url('arrowRight.png') center right no-repeat;
+}
+.collapsible .collapser.expanded {
+padding-right: 14px;
+background: url('arrowDown.png') center right no-repeat;
+}
+.LSResult {
+position: absolute;
+right: 0;
+margin: -1.5em 0 0 -7em;
+z-index: 5;
+}
+.livesearchContainer {
+padding: 1em 0 0;
+border: 1px solid #ccc;
+background: #ffffff;
+}
+#livesearchLegend {
+background-color:#ccc;
+padding:0.3em;
+*margin-top: -24px;
+}
+.LSResult .LSDescr {
+font-size: 85%;
+color: #666;
+}
+.LSRow,
+#LSNothingFound {
+display: block;
+padding: 0.5em 1em;
+white-space: normal;
+width:28em;
+}
+.LSHighlight {
+background: #dddddd;
+}
+/* */
+#portal-breadcrumbs {
+margin-bottom: 1em;
+margin-left: 0.25em;
+}
+#portal-breadcrumbs a {
+display: inline-block;
+}
+/* */
+#portal-siteactions {
+font-size: 10px;
+padding-bottom: 2em;
+text-align: center;
+}
+#portal-siteactions li {
+margin-right: 0.5em;
+}
+/* */
+#portal-footer {
+background: #dddddd;
+padding: 1em;
+margin: 1em 0;
+line-height: 2em;
+}
+#portal-colophon {
+font-size: 90%;
+text-align: center;
+margin-bottom: 1em;
+}
+#portal-colophon li {
+padding: 0 0.75em;
+}
+/* */
+#content {
+line-height: 1.5em;
+clear: both;
+margin: 1em 0.25em 2em 0.25em;
+}
+/* */
+body#content {
+margin: 1em;
+}
+#content h1 {
+margin-top: 0.5em;
+}
+#content .documentFirstHeading {
+margin-top: 0;
+}
+#content p,
+#content table,
+#content dl {
+margin-bottom: 1em;
+}
+#content a:target {
+background-color: #ffb;
+}
+#content span.link-external a {
+background: transparent url(link_icon.png) 0px 1px no-repeat;
+padding: 1px 0px 1px 16px;
+}
+#content ul {
+list-style-type: disc;
+margin-left: 2em;
+}
+#content ol,
+.portlet ol {
+list-style-type: decimal;
+margin-left: 2em;
+}
+#content li,
+.portlet li {
+margin-bottom: 0.25em;
+line-height: 1.5em;
+display: list-item;
+}
+#content dt {
+font-weight: bold;
+margin-bottom: 0;
+margin-right: 0;
+}
+#content dd {
+margin: 0 0 1em 2em;
+}
+#content pre {
+background-color: #222;
+color: #ffffff;
+font-family: "Courier New", monospace;
+padding: 1em;
+overflow-x: auto;
+font-size: 90%;
+margin-bottom: 1em;
+line-height: 1.25em;
+}
+#content pre.python {
+background-color: #ffffff;
+}
+#content code {
+font-family: "Courier New", monospace;
+}
+#content .documentByLine {
+font-size: 10px;
+color: #666;
+}
+#content .discreet,
+#sidebar .discreet {
+color: #666;
+font-size: 10px;
+font-weight: normal;
+}
+#content .visualHighlight {
+background-color: #ffb;
+}
+#content .pullquote {
+margin: 0 1em 0.5em 0.5em;
+font-weight: bold;
+line-height: 1.25em;
+float: right;
+width: 35%;
+clear: right;
+color: #444;
+font-size: 1.6em;
+letter-spacing: -0.08em;
+}
+#content .callout {
+background: #eee;
+padding: 1em;
+border-left: 1em solid #ccc;
+clear: both;
+}
+#content table {
+text-align: left;
+border-collapse: collapse;
+border-spacing: 0px;
+}
+#content .documentDescription,
+#content #description {
+color: #666;
+font: bold 1.25em Arial, sans-serif;
+}
+#content .tileImage,
+#content .newsImageContainer {
+float: right;
+margin: 0 1em 0.5em 1em;
+}
+#content .newsImageContainer .discreet {
+margin: 0;
+padding: 0.5em;
+background-color: #666;
+color: #ffffff;
+font-weight: bold;
+width: 190px;
+}
+/* */
+.listing,
+table.plain {
+border-spacing: 0;
+border-collapse: collapse;
+}
+.invisible td,
+.invisible th,
+.plain td,
+.plain th,
+.listing td,
+.listing th {
+padding: 0.5em 1em;
+vertical-align: top;
+}
+.plain th,
+.plain td {
+border: 1px solid #dddddd;
+}
+.listing .listingCheckbox {
+text-align: center;
+}
+.listing th {
+text-align: left;
+color: #666;
+border: 1px solid #e7e7e7;
+border-style: solid none none;
+}
+.listing .odd th {
+border: 1px solid #fff;
+border-style: solid solid none none;
+}
+.listing th {
+font-weight: bold;
+}
+.listing tr {
+text-align:left;
+}
+.listing .odd {
+background: #eeeeee;
+}
+.listing td {
+background: transparent;
+}
+.listing .odd td {
+background: #eeeeee;
+}
+.listing a {
+line-height: 2em;
+display: inline-block;
+}
+.listing td.draggable,
+.listing .odd td.draggable {
+text-shadow: #ffffff 1px 1px 1px;
+background: #dddddd;
+border-bottom: 1px solid #ffffff;
+padding: 0.4em 0.4em 0 0.5em;
+}
+.listing .odd.selected td,
+tr.selected {
+background-color: #ffa;
+}
+/* */
+.vertical {
+}
+.vertical th {
+text-align: right;
+}
+.vertical td {
+border-top: 1px solid #e7e7e7;
+padding: 0.5em;
+}
+/* */
+.grid td,
+.grid th {
+border: 1px solid #e7e7e7;
+padding: 0.5em;
+}
+.dragindicator {
+outline: 2px solid #FFD700;
+}
+#foldercontents-order-column {
+padding: 0;
+}
+/* */
+/* */
+.listingBar {
+font-size: 80%;
+margin: 1em 0;
+}
+.listingBar .next {
+display: inline-block;
+float: right;
+}
+.listingBar .previous {
+display: inline-block;
+}
+.listingBar a {
+display: inline-block;
+padding: 0.25em 0.5em;
+border: 1px solid #ccc;
+}
+.listingBar a:hover {
+color: #ffffff;
+background-color: #329fd7;
+border-color: #329fd7;
+}
+/* */
+.portalMessage {
+margin: 1em 0;
+font-size: 10px;
+border: 1px solid #9C6E3D;
+background-color: #ffffe3;
+clear: both;
+}
+.portalMessage dt {
+background-color: #9C6E3D;
+font-weight: bold;
+float: left;
+margin: 0 0.5em 0 0;
+padding: 0.5em 0.75em;
+color: #ffffff;
+line-height: 1.25em;
+}
+.portalMessage dd {
+padding: 0.5em 0.5em;
+margin: 0;
+line-height: 1.25em;
+}
+.warning {
+border-color: #d80;
+}
+.warning dt {
+background-color: #d80;
+}
+.warning dd {
+background-color: #fd7;
+}
+.error {
+border-color: #d00;
+}
+.error dt {
+background-color: #d00;
+}
+.error dd {
+background-color: #fdc;
+}
+#content .portalMessage dt {
+margin: 0 0.5em 0 0;
+padding: 0.5em 0.75em;
+}
+#content .portalMessage dd {
+margin: 0;
+}
+.spacer {
+margin: 1em;
+}
+.label {
+font-weight: bold;
+display: inline;
+padding-right: 0.5em;
+}
+.optionsToggle {
+border: 1px solid #8cacbb;
+color: #000000;
+background-color: #dee7ec;
+font-weight: normal;
+font-size: 90%;
+}
+/* */
+.toc {
+float: right;
+width: 35%;
+margin: 1em 0 0.5em 1.5em;
+}
+.toc dt {
+margin-left: 1em;
+font-weight: normal;
+}
+.toc dd {
+margin-bottom: 0;
+padding-left: 2em;
+}
+.toc dd ol {
+margin-left: 1.5em;
+}
+/* */
+#category {
+font-size: 10px;
+margin-bottom: 1em;
+color: #666;
+text-align: right;
+}
+#category .link-category {
+color: #000000;
+padding: 0.25em 0.5em;
+background: #dddddd;
+}
+#category .link-category:hover {
+background: #205C90;
+color: #ffffff;
+}
+#category .separator {
+display: none;
+}
+/* */
+.highlightedSearchTerm {
+background-color: #ffffe0;
+}
+.searchResults .highlightedSearchTerm {
+background-color: transparent;
+font-weight: bold;
+}
+.noInheritedRoles {
+color: #a0a0a0;
+}
+.currentItem {
+border-collapse: collapse;
+border: 0.2em solid #ffa500;
+padding: 0.1em;
+}
+/* */
+.image-left {
+float: left;
+clear: both;
+margin: 0.5em 1em 0.5em 0;
+}
+.image-right {
+float: right;
+clear: both;
+margin: 0.5em;
+}
+.image-inline {
+float: none;
+}
+img.image-left,
+img.image-right,
+.captioned img {
+border: 1px solid #dddddd;
+}
+.image-caption {
+text-align: left;
+padding: 0 0 0 3px; /**/
+margin: 0;
+color: #666;
+font-size: 85%;
+}
+/* */
+.icons-on .contenttype-document {
+background: no-repeat transparent 0px 4px url(contenttypes-sprite.png);
+}
+.icons-on .contenttype-event {
+background: no-repeat transparent 0px -212px url(contenttypes-sprite.png);
+}
+.icons-on .contenttype-folder {
+background: no-repeat transparent 0px -644px url(contenttypes-sprite.png);
+}
+.icons-on .contenttype-link {
+background: no-repeat transparent 0px -1076px url(contenttypes-sprite.png);
+}
+.icons-on .contenttype-news-item {
+background: no-repeat transparent 0px -1292px url(contenttypes-sprite.png);
+}
+.icons-on .contenttype-plone-site {
+background: no-repeat transparent 0px -1508px url(contenttypes-sprite.png);
+}
+.icons-on .contenttype-topic {
+background: no-repeat transparent 0px -1724px url(contenttypes-sprite.png);
+}
+.icons-on #plone-contentmenu-factories .contenttype-file {
+background: no-repeat transparent 0px -428px url(contenttypes-sprite.png);
+}
+.icons-on #plone-contentmenu-factories .contenttype-image {
+background: no-repeat transparent 0px -860px url(contenttypes-sprite.png);
+}
+.icons-on .contenttype-document,
+.icons-on .contenttype-event,
+.icons-on .contenttype-folder,
+.icons-on .contenttype-link,
+.icons-on .contenttype-news-item,
+.icons-on .contenttype-plone-site,
+.icons-on .contenttype-topic {
+line-height: 2em;
+padding-left: 20px !important;
+display: inline-block;
+}
+.icons-on #plone-contentmenu-factories .contenttype-file,
+.icons-on #plone-contentmenu-factories .contenttype-image {
+line-height: 2em;
+padding-left: 20px !important;
+display: block;
+}
+/* */
+fieldset,
+.editionComment {
+line-height:1.5em;
+margin:1em 0;
+padding:0 1em 1em;
+width:auto;
+}
+#archetypes-fieldname-title input {
+font-family: Arial, sans-serif;
+line-height: 125%;
+color: #000000;
+letter-spacing: -0.05em;
+margin: inherit -0.05em;
+font-size: 2em;
+font-weight: bold;
+}
+#archetypes-fieldname-description #description {
+font-family: Arial, sans-serif;
+color:#666666;
+font-size:1.25em;
+font-weight: bold;
+}
+.formControls {
+margin: 1em;
+}
+#content textarea {
+font-family: "Courier New", Courier, monospace;
+width: 100%;
+}
+#content select {
+vertical-align: top;
+}
+#content fieldset {
+border: 1px solid #205C90;
+border-style: solid none none none;
+}
+#content legend {
+padding: 0.5em;
+font-size: 10px;
+}
+label {
+font-weight: bold;
+}
+#content optgroup {
+font-style: normal;
+font-weight: bold;
+color: #999;
+padding-left: 0.25em;
+}
+#content option {
+color: #000000;
+}
+#content optgroup > option {
+padding: 0 0.25em 0 1em;
+}
+.enableFormTabbing dd {
+margin-left: 0;
+padding-top: 2em;
+}
+.field {
+clear: both;
+margin-bottom: 1em;
+}
+#title {
+width: 100%;
+}
+.error #title {
+width: 99%;
+}
+#subject {
+width: 100%;
+}
+.fieldRequired {
+background: url(required.png) center left no-repeat;
+padding: 0 0 0 1em;
+color: #ffffff;
+}
+.fieldUploadFile {
+text-align: right;
+margin-right: 0.75em;
+display: none;
+}
+.fieldTextFormat {
+text-align: right;
+margin-right: 0.75em
+}
+.formHelp {
+color: #555;
+margin: 0 0 0.2em 0;
+}
+div.error {
+background-color: #fdc;
+border:  1px solid red;
+padding: 0.5em;
+margin:  1em 0;
+}
+.error .fieldRequired {
+color: #d00;
+}
+.error.warning {
+background-color: transparent;
+border: none;
+margin-top: 0;
+padding: 0;
+}
+.error.warning input {
+border: 2px solid red;
+}
+.inputLabelActive {
+color: #76797c;
+}
+/* */
+.template-logged_out #content,
+.template-login_form #content,
+.pb-ajax #login-form {
+text-align: center;
+}
+#fieldset-openid-login input,
+#login-form input {
+font-size: 150%;
+}
+.template-register #content input,
+.template-new-user #content input {
+font-size: 150%;
+width: inherit;
+}
+#fieldset-openid-login label, #login-form label {
+margin-right:0.5em;
+padding-top:0.2em;
+text-align:right;
+width: 10em;
+display: inline-block;
+}
+#fieldset-openid-login .formControls input,
+#login-form .formControls input {
+margin-left: 0.25em;
+}
+/* */
+/* */
+#content .link-overlay {
+border-bottom: 1px dotted #205C90;
+}
+dt .documentByLine {
+font-weight: normal;
+}
+/* */
+form.searchPage {
+text-align: center;
+}
+input.searchPage {
+font-size: 200%;
+}
+/* */
+#portal-sitemap {
+list-style: none;
+margin-left: 0;
+font-size: 130%;
+font-weight: bold;
+}
+#portal-sitemap li {
+list-style: none;
+margin-left: 0;
+}
+#portal-sitemap a {
+border-bottom: none;
+display: block;
+}
+#portal-sitemap > li {
+border-bottom: 1px dotted #dddddd;
+line-height: 1.8em;
+padding: 0.25em 1em;
+margin-bottom: 0;
+}
+#portal-sitemap .navTreeLevel2,
+#portal-sitemap .navTreeLevel2 ul {
+font-size: 85%;
+font-weight: normal;
+margin-bottom: 0;
+padding: 0.25em 0;
+}
+/* */
+.eventDetails {
+float: right;
+clear: right;
+margin: 0 0 0.5em 1em;
+}
+/* */
+.photoAlbumEntry {
+float: left;
+position:relative;
+overflow: hidden;
+height: 185px;
+width: 143px;
+margin: 0em;
+padding: 0px 6px 0px 9px;
+text-align: center;
+background-image: url('polaroid-single.png');
+background-repeat: no-repeat;
+}
+.photoAlbumEntry img {
+border: 1px solid #ccc;
+display: block;
+margin: 0 auto;
+}
+.photoAlbumEntryWrapper {
+height: 130px;
+width: 128px;
+margin-bottom: 7px;
+}
+.photoAlbumEntry a {
+display: block;
+text-decoration: none;
+font-size: 90%;
+height: 169px;
+width: 130px;
+margin: 16px auto 0px;
+}
+.photoAlbumFolder {
+background-image: url('polaroid-multi.png');
+background-repeat: no-repeat;
+}
+.photoAlbumEntryTitle {
+color: #76797c;
+display: block;
+width: 128px;
+height: 3.6em;
+}
+/* */
+/* */
+.overlay {
+width: auto;
+height: auto;
+display: none;
+margin: 1em;
+font-size: 80%;
+}
+.overlay-iframe,
+.overlay-ajax {
+width: 60%;
+min-height: 100px;
+z-index: 99;
+}
+.overlay-iframe {
+height: 60%;
+}
+.overlaybg .close,
+.overlay .close {
+background-image: url(pb_close.png);
+position: absolute;
+left: -14px;
+top: -14px;
+cursor: pointer;
+height: 30px;
+width: 30px;
+}
+.pb-ajax {
+overflow-y: auto;
+}
+.pb-ajax, .pb-image {
+background-color: #fff;
+border: 1px solid #999;
+white-space: normal;
+box-shadow: 0 0 3em 0.5em #666;
+-moz-box-shadow: 0 0 3em 0.5em #666;
+-webkit-box-shadow: 0 0 3em #666;
+}
+.pb-ajax > div {
+width: 92%;
+padding: 1em;
+}
+.pb-ajax .documentActions {
+display: none;
+}
+.overlay .close span {
+display: block;
+height: 1px;
+margin: -1px 0 0 -1px;
+overflow: hidden;
+padding: 0;
+width: 1px;
+}
+.overlay textarea {
+width: 100%;
+}
+.overlay .link-parent,
+.overlay #createGroup legend {
+display: none;
+}
+.overlay #createGroup fieldset {
+border: none;
+}
+/* */
+.overlay p {
+margin-bottom: 1em;
+}
+.overlay label {
+margin-bottom: 0.25em;
+}
+.overlay a:hover {
+color: #000000;
+}
+.overlay a.selected {
+color: #000000;
+}
+.overlay .formTab {
+margin-right:1em;
+font-weight: bold;
+}
+.overlay .formTab.lastFormTab {
+margin-right:0em;
+}
+.overlay .formControls a {
+display: block;
+margin: 0.75em;
+}
+/* */
+}
+
+
+/* - authoring.css - */
+@media screen {
+/* https://sfari.org/portal_css/authoring.css?original=1 */
+/* */
+/* */
+#content .formTabs {
+background-color: #dddddd;
+border: 0.3em solid #dddddd;
+}
+#edit-bar {
+background-color: #75AD0A;
+border: 0.25em solid #75AD0A;
+font-size: 10px;
+min-height: 2em;
+margin-bottom: 1em;
+padding-top: 0.05em;
+}
+#content-views {
+float: left;
+background-color: #75AD0A;
+}
+#content-views a {
+color: #ffffff
+}
+/* */
+#edit-bar,
+#content .formTabs {
+display: block;
+border-style: solid solid none solid;
+margin-left: 0;
+}
+#content .formTab {
+display: inline;
+margin-right:0.25em;
+}
+#content-views a,
+#content .formTab a {
+line-height: 2em;
+padding: 0 0.75em;
+text-decoration: none;
+border: none;
+margin: 0;
+display: inline-block;
+}
+#content-views .selected a,
+#content .formTab a.selected {
+font-weight: bold;
+}
+#content-views .selected a,
+#content-views a:hover,
+#content .formTab a.selected,
+#content .formTab a:hover {
+background: #ffffff;
+color: #000000;
+}
+#content .formTab a.notify {
+background-color: #ff0000;
+color: #ffffff;
+}
+#content .formTab a.required span {
+background-image: url(required.png);
+background-position: center right;
+background-repeat: no-repeat;
+padding-right: 1em;
+}
+#content .formPanel {
+border: none;
+}
+#content .formPanel.hidden {
+display: none;
+}
+#content .formControls .hidden {
+display: none;
+}
+/* */
+#contentActionMenus {
+line-height: 2em;
+float: right;
+background: #75AD0A;
+position: relative;
+margin: 0;
+top: -0.23em;
+right:-0.24em;
+padding: 0.1em 0.24em 0 0;
+*clear: both;
+*position: static;
+}
+#contentActionMenus .actionMenu a,
+#contentActionMenus .actionMenu.activated dd {
+background-color: #75AD0A;
+color: #ffffff;
+z-index: 5;
+}
+#contentActionMenus .actionMenu.activated dd {
+border-bottom: 0.5em solid #75AD0A;
+right: -3px;
+}
+#contentActionMenus .actionMenu.activated dd a:hover,
+#contentActionMenus .actionMenu.activated dd .actionMenuSelected {
+background-color: #ffffff;
+color: #666;
+}
+#folderHeader,
+#contextHeader {
+border-bottom: 2px solid white;
+}
+#contextHeader {
+margin-top: 5px;
+}
+.actionMenuContent {
+padding: 0 0.25em;
+}
+.actionMenu {
+float: right;
+white-space: nowrap;
+position: relative;
+margin-left: 0.5em;
+}
+.actionMenu a,
+.actionMenu div,
+.icons-on .actionMenu a,
+.icons-on .actionMenu div {
+display: block;
+white-space: nowrap;
+}
+.actionMenu dt {
+font-weight: normal;
+}
+.arrowDownAlternative {
+font-size: 80%;
+}
+.actionMenu.deactivated dt {
+margin: 0 0.25em;
+}
+.actionMenu.deactivated dd {
+display: none;
+}
+.actionMenu.activated dd {
+position: absolute;
+width: auto;
+min-width: 100%;
+}
+.actionMenu.activated dt a,
+.actionMenu.activated dd a,
+.actionMenu.activated dd div {
+margin: 0 0.25em;
+}
+/* */
+.actionMenu .state-private {
+background-color: #c00000;
+padding: 1px 3px;
+}
+.portlet .state-private {
+color: #c00000;
+}
+.actionMenu .state-pending {
+background-color: #E59500;
+padding: 1px 3px;
+}
+.portlet .state-pending {
+color: #E59500;
+}
+/* */
+#setup-link {
+font-size: 90%;
+}
+#content .configlets {
+margin: 1em 0;
+list-style-image: none;
+list-style: none;
+}
+#content .configlets li {
+margin-bottom: 1em;
+list-style: none;
+}
+#content .configlets li label {
+font-weight: bold;
+}
+#content .configletDetails {
+margin: 0em 1em 1em 3.2em;
+}
+#content .configletDetails li {
+margin-bottom: 1em;
+display: inline;
+}
+#content .configletDetails .configletDescription {
+display: block;
+color: #76797c;
+margin: 0;
+}
+.inlineDisplay {
+display:inline
+}
+/* */
+.controlpanel-listing {
+width:100%;
+}
+.controlpanel-listing dl {
+margin-top:0;
+}
+.controlpanel-listing dl dt a .trigger{
+font-weight:normal;
+}
+.controlpanel-listing td {
+vertical-align:top;
+}
+.controlpanel-listing td.checker{
+text-align:center;
+}
+.controlpanel-listing th.smallcolumn {
+width:1.5em;
+}
+.chooser-right {
+float:right;
+margin-right:0;
+margin-bottom:0;
+}
+.rule-element {
+background-color:#EEF3F5;
+margin:0.5em 0pt 0.5em;
+padding:0.3em 1em 0.3em 1em;
+width:auto;
+}
+.rule-element dd {
+margin-left:1em;
+}
+.rule-updown, .rule-operations {
+float:right;
+padding-top:0.8em;
+}
+/* */
+.collapsible {
+border: 1px solid #205C90;
+margin: 1em 0;
+padding: 0;
+}
+.collapsible .collapsibleHeader {
+display: block;
+float: left;
+background: #ffffff;
+line-height: 1.2em;
+vertical-align: middle;
+font-size: 90%;
+position: relative;
+top: -0.6em;
+width: auto;
+margin: 0 0 -0.6em 1em;
+padding: 0 0.5em;
+}
+.collapsible .collapsibleContent {
+margin: 0;
+padding: 0 1em 0.4em;
+clear: left;
+}
+/* */
+.collapsible .collapsibleContent > dl {
+margin: 0;
+padding: 0;
+}
+.expandedInlineCollapsible .collapsibleHeader,
+.expandedBlockCollapsible .collapsibleHeader {
+padding: 0 0.5em 0 2em;
+background: #ffffff url(treeExpanded.png) no-repeat 0.5em 50%;
+cursor: pointer;
+}
+.collapsedBlockCollapsible {
+border: none;
+height: 1em;
+width: auto;
+}
+.collapsedInlineCollapsible .collapsibleHeader,
+.collapsedBlockCollapsible .collapsibleHeader {
+float: none;
+position: relative;
+margin: 0 0 0 1em;
+padding: 0 0.5em 0 2em;
+line-height: 1.2em;
+cursor: pointer;
+background: #ffffff url(treeCollapsed.png) no-repeat 0.5em 50%;
+}
+.collapsedInlineCollapsible .collapsibleContent,
+.collapsedBlockCollapsible .collapsibleContent {
+display: none;
+}
+.collapsedInlineCollapsible {
+border: none;
+height: 1em;
+width: auto;
+display: inline;
+}
+.collapsedInlineCollapsible .collapsibleHeader {
+position: static;
+float: none;
+margin: 0;
+padding: 0 0 0 2em;
+line-height: 1em;
+cursor: pointer;
+display: inline;
+}
+/* */
+.comment {
+margin-top: 1.5em;
+font-size: 80%;
+}
+.comment .documentByLine {
+margin-left: 1em;
+}
+.comment .formControls {
+margin-left: 0;
+}
+.commentTime {
+color: #666;
+}
+.commentBody {
+padding: 1em;
+margin: 0.5em 0;
+border-radius: 0.5em;
+-webkit-border-radius: 0.5em;
+-moz-border-radius: 0.5em;
+box-shadow: 0 0 1em 0 #888;
+-moz-box-shadow: 0 0 0.5em 0 #888;
+-webkit-box-shadow: 0 0 0.5em #888;
+}
+.comment h1,
+.comment h2,
+.comment h3,
+.comment h4,
+.comment h5,
+.comment h6 {
+font-weight: normal;
+}
+/* */
+.reviewHistory,
+.contentHistory {
+display: inline;
+color: #000000;
+}
+#content-history .historyRecord {
+margin-bottom: 1em;
+}
+#content-history .historyTools ul {
+float: right;
+margin: 0.5em 1em;
+}
+#content-history .historyTools ul li {
+display: inline;
+padding: 0 0.015em;
+}
+#content-history .historyTools form {
+display: inline;
+}
+#content-history .historyByLine {
+background: #dddddd;
+padding: 0.5em;
+}
+#content-history .historyLinks {
+float: right;
+clear: right;
+margin: 0.5em 1em 0 0;
+}
+#content-history .historyComment {
+padding: 0.5em 1em;
+border: 1px solid #dddddd;
+}
+#content-history .historyComment p {
+margin: 0;
+padding-top: 1px;
+}
+#content-history .historyComparePrevious {
+border-top: 1px dotted #ccc;
+display: block;
+margin-top: 3em;
+text-align: center;
+}
+#content-history .historyComparePrevious span {
+background-color: white;
+position: relative;
+top: -0.75em;
+padding: 0 0.5em;
+}
+/* */
+#dashboard-actions ul,
+#dashboard-actions ul li {
+list-style: none none;
+}
+#dashboard-actions ul {
+margin-left: 0;
+}
+#dashboard {
+font-size: 125%;
+line-height: 1em;
+}
+#dashboard dd {
+margin: 0;
+}
+#dashboard .portlet a {
+border-bottom: none;
+}
+#dashboard-portlets1,
+#dashboard-portlets2,
+#dashboard-portlets3,
+#dashboard-portlets4 {
+float: left;
+width: 23%;
+padding: 0.7em 1.3em 0 0;
+display: inline-block;
+}
+#dashboard-portlets1 .portlet,
+#dashboard-portlets2 .portlet,
+#dashboard-portlets3 .portlet,
+#dashboard-portlets4 .portlet {
+margin-bottom: 1.5em;
+}
+/* */
+}
+
+
+/* - portlets.css - */
+@media screen {
+/* https://sfari.org/portal_css/portlets.css?original=1 */
+/* */
+/* */
+.portlet {
+margin: 0 0 1em;
+}
+.portlet p,
+.portlet {
+margin-bottom: 1em;
+}
+.portletError {
+background-color: #FFA500;
+}
+.portlet dt,
+.portletAssignments .portletHeader {
+padding: 0.5em 1em;
+background: #dddddd;
+}
+.portlet dt a,
+.portlet dt a:visited,
+.portlet dt a:hover {
+color: #000000;
+}
+.portlet .portletItem,
+.portletError dd {
+padding: 1em;
+}
+.portlet .portletFooter {
+padding: .5em 1em;
+}
+.portletItemDetails {
+font-size: 10px;
+padding-top: .5em;
+line-height: 1.5em;
+margin-left: 1em;
+display: block;
+}
+/* */
+.managePortletsLink,
+a.managePortletsFallback {
+text-align: center;
+padding: 0.25em;
+font-size: 10px;
+margin: 0 auto 1em;
+background: #dddddd;
+}
+a.managePortletsFallback {
+display: inline-block;
+}
+#content a.managePortletsFallback {
+display: block;
+}
+/* */
+.managedPortlet {
+margin: 0.8em 0;
+}
+.blockedPortlet .portletHeader {
+border: 1px dashed #ddd;
+margin: -1px;
+background: none;
+}
+.blockedPortlet .portletHeader a {
+color: #666;
+}
+.blockedPortlet .portletBlockedMessage {
+color: white;
+display: inline;
+}
+.portletAssignments {
+font-size: 0.8em;
+line-height: 2em;
+}
+.portletAssignments .managedPortletActions {
+float: right;
+}
+.portletAssignments .managedPortletActions a {
+margin: 0 0.25em;
+border: none;
+}
+/* */
+#portlet-prefs a {
+line-height: 2em;
+}
+/* */
+.portlet .navTree li {
+margin-bottom: 0;
+}
+.portlet .navTree a {
+border: none;
+display: block;
+padding: 0 1em;
+}
+.portletNavigationTree .portletItem {
+padding: 0;
+}
+.portlet .navTreeLevel0 > .navTreeItem {
+border-bottom: 1px dotted #333333;
+}
+.portlet .navTreeLevel1 .navTreeItem {
+padding-left: 0.5em;
+}
+.portlet .navTree .navTreeCurrentItem {
+background-color: #dddddd;
+}
+.icons-on .portlet .navTree .contenttype-file,
+.icons-on .portlet .navTree .contenttype-image {
+line-height: 2em;
+padding-left: 0px;
+}
+/* */
+.portletSearch .LSResult {
+margin-top: 0;
+font-size: 10px;
+}
+/* */
+.portletCalendar {
+margin: 1px 0 1em 0;
+}
+.portletCalendar dt {
+background-color: #dddddd;
+font-weight: bold;
+text-align: center;
+line-height: 1.6em;
+border-bottom: none;
+}
+.portlet.portletCalendar dd {
+margin: 0;
+padding: 0;
+}
+.portletCalendar dt a#calendar-previous {
+padding: 0 1em;
+margin: 0 -.5em;
+}
+.portletCalendar dt a#calendar-next {
+padding: 0 1em;
+margin: 0 -.5em;
+}
+.portletCalendar a, .portletCalendar a:focus,
+.portletCalendar a, .portletCalendar a:hover {
+text-decoration: none;
+}
+.ploneCalendar {
+border-spacing: 0;
+border-collapse: collapse;
+width: 100%;
+}
+.ploneCalendar a {
+text-decoration: none;
+}
+.ploneCalendar td {
+background-color: transparent;
+width: 14%;
+text-align: center;
+padding: 2px;
+}
+.ploneCalendar .weekdays th {
+background-color: #eee;
+text-align: center;
+padding: 2px;
+font-weight: normal;
+}
+.ploneCalendar .event {
+background-color: #dddddd;
+font-weight: bold;
+}
+.ploneCalendar .todayevent {
+background-color: #dddddd;
+border: 2px solid #205C90;
+font-weight: bold;
+}
+.ploneCalendar .todaynoevent {
+border: 2px solid #205C90;
+}
+/* */
+}
+
+
+/* - dropdown-menu.css - */
+@media screen {
+/* https://sfari.org/portal_css/dropdown-menu.css?original=1 */
+/* */
+/* */
+#portal-globalnav {
+position:relative;
+z-index:3;
+}
+* html #portal-globalnav {
+height:1%;
+}
+#portal-globalnav li {
+float:left;
+margin:0;
+padding:0;
+}
+#portal-globalnav li a {
+display:block;
+position:relative;
+}
+#portal-globalnav ul {
+position: absolute;
+width: 15em;
+left:-999em;
+background: #fff;
+border-color: #205C90;
+border-width: 1px;
+border-style: none solid solid solid;
+margin:0;
+}
+#portal-globalnav li.selected ul.submenu {
+margin-top:-1px;
+z-index:3;
+}
+#portal-globalnav ul.submenu li {
+display:block;
+width:100%;
+}
+#portal-globalnav ul.submenu a,
+#portal-globalnav ul.submenu a:hover {
+margin:0;
+display:block;
+border-color: #205C90;
+border-style: solid none none;
+position:static !important;
+white-space:normal;
+}
+#portal-globalnav li.selected ul.submenu a:hover {
+background-color:#fff;
+}
+a.hasDropDown {
+background-image:url('arrowRight.gif');
+background-position:14em 50%;
+background-repeat:no-repeat;
+}
+*:first-child+html #portal-globalnav ul.submenu a {height:1%;} /* */
+* html #portal-globalnav ul.submenu a {height:1%;} /* */
+/* */
+#portal-globalnav li ul ul {
+z-index:10;
+top:0.4em;
+left:-999em;
+left:0;
+margin: 0 0 0 14em;
+}
+#portal-globalnav ul li:hover,
+#portal-globalnav ul li.sfhover {
+position:relative;
+}
+#portal-globalnav li:hover ul ul,
+#portal-globalnav li:hover ul ul ul,
+#portal-globalnav li:hover ul ul ul ul,
+#portal-globalnav li.sfhover ul ul,
+#portal-globalnav li.sfhover ul ul ul,
+#portal-globalnav li.sfhover ul ul ul ul {
+left:-999em;
+}
+#portal-globalnav li:hover ul,
+#portal-globalnav li li:hover ul,
+#portal-globalnav li li li:hover ul,
+#portal-globalnav li li li li:hover ul,
+#portal-globalnav li.sfhover ul,
+#portal-globalnav li li.sfhover ul,
+#portal-globalnav li li li.sfhover ul,
+#portal-globalnav li li li li.sfhover ul {
+left:auto;
+}
+/* */
+#post-sections-clear {
+height:1px;
+margin-bottom:-3px;
+}
+/* */
+*:first-child+html #post-sections-clear {margin-bottom:-2px;}
+* html #post-sections-clear {
+margin-bottom:-2px;
+}
+/* */
+}
+
+
+/* - ploneKss.css - */
+@media screen {
+/* https://sfari.org/portal_css/ploneKss.css?original=1 */
+#kss-spinner {
+display:none;
+width: 20px;
+height: 20px;
+position: fixed;
+background-position: center center;
+top: 50%;
+left: 50%;
+margin-top: -10px;
+margin-left: -10px;
+}
+.formlibInlineEditable,
+.inlineEditable {
+padding: 1px;
+display: block;
+}
+body.kssActive .inlineEditable:hover,
+body.kssActive .formlibInlineEditable:hover {
+padding: 0;
+border: 1px solid #ddd;
+border-color: #666 #ddd #ddd #666;
+cursor: text;
+background: White url(input_background.png) repeat-x;
+}
+body.kssActive .inlineEditable a:hover,
+body.kssActive .formlibInlineEditable a:hover {
+cursor: pointer;
+}
+body.kssActive .formlibInlineForm:hover,
+body.kssActive .formlibInlineForm a:hover {
+padding: 1px;
+border: none;
+cursor: default;
+background: none;
+}
+.inlineForm .formHelp,
+.inlineForm .fieldRequired,
+.inlineForm label {
+display: none;
+}
+/* */
+.inlineForm .ArchetypesSelectionWidget label {
+display: inline;
+}
+.inlineForm #archetypes-fieldname-title input,
+.inlineForm #archetypes-fieldname-title {
+font-size: 100%;
+}
+/* */
+h1 div.formControls input {
+font-size: 55% !important;
+}
+}
+
+
+/* - ++resource++tinymce.stylesheets/tinymce.css - */
+@media screen {
+/* https://sfari.org/portal_css/++resource++tinymce.stylesheets/tinymce.css?original=1 */
+#content ul.listTypeDisc {
+list-style-type: disc;
+list-style-image: none;
+}
+#content ul.listTypeSquare {
+list-style-type: square;
+list-style-image: none;
+}
+#content ul.listTypeCircle {
+list-style-type: circle;
+list-style-image: none;
+}
+#content ol.listTypeDecimal {
+list-style-type: decimal;
+list-style-image: none;
+}
+#content ol.listTypeLowerAlpha {
+list-style-type: lower-alpha;
+list-style-image: none;
+}
+#content ol.listTypeUpperAlpha {
+list-style-type: upper-alpha;
+list-style-image: none;
+}
+#content ol.listTypeLowerRoman {
+list-style-type: lower-roman;
+list-style-image: none;
+}
+#content ol.listTypeUpperRoman {
+list-style-type: upper-roman;
+list-style-image: none;
+}
+
+}
+
+
+/* - print.css - */
+@media print {
+/* https://sfari.org/portal_css/print.css?original=1 */
+/* */
+body {
+font-family: Arial, sans-serif;
+font-size: 11pt !important;
+}
+h1, h2, h3, h4, h5, h6 {
+border: none;
+font-family: Arial, sans-serif;
+}
+div, p, ul, dl, ol {
+width: auto;
+}
+ul, ol, dl {
+padding-right: 0.5em;
+}
+ul {
+list-style-type: square;
+}
+.documentDescription {
+font-weight: bold;
+}
+pre {
+border: 1pt dotted black;
+white-space: pre;
+font-size: 8pt;
+overflow: auto;
+padding: 1em 0;
+}
+table.listing,
+table.listing td {
+border: 1pt solid black;
+border-collapse: collapse;
+}
+a {
+color: #000000 !important;
+padding: 0 !important;
+text-decoration: none !important;
+}
+a:link, a:visited {
+color: #520;
+background: transparent;
+}
+/* */
+div.pageBreak {
+page-break-before: always;
+}
+/* */
+div.top,
+#portal-logo,
+#portal-siteactions,
+.hiddenStructure,
+#portal-searchbox,
+#portal-globalnav,
+#portal-personaltools,
+#portal-breadcrumbs,
+#portal-column-one,
+#portal-column-two,
+#portal-languageselector,
+.contentViews,
+.contentActions,
+.help,
+.legend,
+.portalMessage,
+.documentActions,
+.documentByLine,
+.netscape4,
+#kss-spinner,
+#review-history,
+#content-history,
+.listingBar,
+#portal-footer,
+#portal-colophon,
+.skipnav,
+#kss-spinner,
+#review-history,
+#content-history,
+.listingBar,
+.discussion input,
+.overlay,
+.close,
+.visualNoPrint,
+#document-toc {
+display: none;
+}
+.discussion .documentByLine {
+display:block;
+}
+/* */
+}
+
+/* - ++resource++imageportlet/main.css - */
+/* https://sfari.org/portal_css/++resource++imageportlet/main.css?original=1 */
+/* */
+.imagePortlet .outer-wrapper,
+.imagePortlet .outer-wrapper:active,
+.imagePortlet .outer-wrapper:visited,
+.imagePortlet .outer-wrapper:hover,
+#content dl.imagePortlet a.outer-wrapper,
+#content dl.imagePortlet a.outer-wrapper:active,
+#content dl.imagePortlet a.outer-wrapper:visited,
+#content dl.imagePortlet a.outer-wrapper:hover,
+#content dl.imagePortlet a.outer-wrapper:link {
+border-bottom: 0 !important;
+}
+.imagePortlet .outer-wrapper {
+position: relative;
+}
+/* */
+.imagePortlet .text {
+background-color: rgba(49, 74, 178, 0.65);
+color: #ffffff;
+width: 100%;
+height: 100%;
+box-sizing: border-box;
+padding: 10px;
+}
+.imagePortlet .default {
+position: absolute;
+}
+.imagePortlet .hover {
+display: none;
+position: absolute;
+top: 0;
+z-index: 2;
+}
+.hidden-portlet {
+display: none;
+}
+
+/* plone.app.discussion stylesheet */
+
+.discussion .hide {
+    display: none;
+}
+
+
+/* Comments Viewlet
+   -------------------------------------------------------------------------- */
+
+.discussion,
+#commenting {
+    /* Clear "float: left" from "manage portlets" div above the
+       comment viewlet. This will get fixed in the next Plone 4
+       release. */
+    clear: both;
+}
+
+.comment {
+}
+
+.commentImage {
+    float: left;
+    margin-right: 0.5em;
+    height: 3.5em;
+}
+
+.commentImage a:link {
+    /* Override the default bottom border of links in Plone 4. */
+    border: 0px;
+}
+
+.commentImage img {
+
+}
+
+.commentDate {
+    display: block;
+    font-size: 85%;
+    line-height: 1.5em;
+    padding-top: 0.5em;
+    color: #76797C;
+}
+
+.commentBody {
+    clear: both;
+    margin: 1em 0;
+    overflow: auto;
+}
+
+.commentBody p {
+    float: left;
+ }
+
+.discussion .documentByLine {
+    float: left;
+    margin-left: 0;
+	margin-bottom: 0.5em;
+}
+
+.commentActions {
+    float: right;
+    text-align: right;
+}
+
+.discussion .discreet {
+    color: #666666;
+    font-size: 85%;
+}
+
+/* Reply Form
+   -------------------------------------------------------------------------- */
+
+.reply fieldset {
+    /* Fix bouncing fieldset when reply form is shown. */
+    margin: 0 !important;
+}
+
+.reply .text-widget {
+    /* Make sure the input fields are always below the label. This sometimes
+     * break when the reply form is copied from the main comment form.
+     */
+    display: block;
+}
+
+.reply-to-comment-button {
+   /* Hide the reply-to-comment button and show it only if Javascript
+    * is enabled. Since the reply functions rely on jQuery.
+    */
+    display: none;
+}
+
+.cancelreplytocomment {
+    /* Hide the cancel button in the comment form, show it only in the reply form
+     * in order to close it.
+     */
+    display: none;
+}
+
+
+/* Moderation View
+   -------------------------------------------------------------------------- */
+
+#bulkactions {
+    text-align: left;
+}
+
+#dobulkaction {
+    margin: 0.3em 0;
+}
+
+.comment-publish-button {
+    float: left;
+    margin-right: 0.5em;
+}
+
+.comment-delete-button {
+    float: left;
+}
+
+#review-comments {
+    margin: 0;
+}
+
+#fieldset-moderate-comments {
+    padding: 2em 1em;
+}
+
+/* Discussion Control Panel
+   -------------------------------------------------------------------------- */
+
+.template-discussion-settings .unclickable {
+    opacity: 0.6;
+    filter: alpha(opacity = 50);
+}
+
+/* Plone 4 Styles
+   -------------------------------------------------------------------------- */
+
+/* These styles are only applied for Plone 4, since Plone 3.x does
+    not have a .row class for portal-column-content. */
+
+.row #dobulkaction {
+    margin: 0;
+}
+
+.row #commenting {
+    font-size: 80%;
+}
+
+.row #commenting .formControls {
+    margin: 0;
+}
+
+.row #commenting textarea,
+.row .discussion textarea {
+    font: 100% Monaco, "Courier New", Courier, monospace;
+    width: 100%;
+}
+
+.row #commenting fieldset,
+.row .discussion fieldset {
+    border: 0.1em solid #329fd7;
+    border-style: solid none none none;
+}
+
+.row #commenting legend,
+.row .discussion legend {
+    padding: 0.5em 0.5em 0.5em 0;
+    font-size: 85%;
+}
+
+.row #commenting label,
+.row .discussion label {
+    font-weight:bold;
+}
+
+
+/* - ++resource++collective.flowplayer.css/flowplayer.css - */
+@media screen {
+/* https://sfari.org/portal_css/++resource++collective.flowplayer.css/flowplayer.css?original=1 */
+/* */
+.autoFlowPlayer {
+display: block;
+height: 250px;
+width: 300px;
+border: 0px;
+}
+.autoFlowPlayer.audio {
+height: 27px;
+}
+.autoFlowPlayer.audio.minimal {
+width: 40px;
+}
+.portletFlowPlayer .video {
+height: 100px;
+width: 100%;
+}
+.portletFlowPlayer .audio {
+display: block;
+height: 28px;
+}
+.playListFlowPlayer {
+display:block;
+}
+}
+
+
+/* - ++resource++collective.flowplayer.css/flowplayer-horizontal.css - */
+@media screen {
+/* https://sfari.org/portal_css/++resource++collective.flowplayer.css/flowplayer-horizontal.css?original=1 */
+.flowPlaylistVisible a.playListFlowPlayer {
+padding-left: 38px;
+padding-bottom: 8px;
+}
+.flowPlaylistHidden .playlist_wrap {
+display: none;
+}
+#pl {
+height:80px;
+border:1px solid #ddd;
+width:584px;
+position:relative;
+overflow:hidden;
+padding:5px 0;
+float:left;
+background:#f5fbfb url(++resource++collective.flowplayer.css/gradient.png) repeat-x scroll 0 0;
+}
+#pl div#flowPlaylist {
+height:80px;
+position:absolute;
+width:10000em;
+}
+#pl div#flowPlaylist a {
+background:transparent url(++resource++collective.flowplayer.css/entry.png) no-repeat scroll 0%;
+color:#666;
+float:left;
+font-family:"bitstream vera sans","lucida grande","verdana";
+font-size:11px;
+height:60px;
+margin:0px 4px;
+padding:10px;
+text-decoration:none;
+width:117px;
+}
+#pl div#flowPlaylist a:hover {
+background-position:-140px 0;
+color:#000;
+}
+#pl div#flowPlaylist a.playing {
+background-position:-280px 0;
+color:#000;
+}
+#pl div#flowPlaylist a.paused {
+background-position:-420px 0;
+color:#000;
+}
+#pl div#flowPlaylist a.progress {
+opacity:0.8;
+}
+#pl div#flowPlaylist em {
+float:right;
+margin-top:15px;
+color:red;
+font-style:normal;
+}
+a.nextPage, a.prevPage {
+display:block;
+width:18px;
+height:18px;
+background:url(++resource++collective.flowplayer.css/left.png) no-repeat;
+margin:30px 10px;
+cursor:pointer;
+float:left;
+}
+a.nextPage:hover, a.prevPage:hover {
+background-position:0px -18px;
+}
+a.nextPage {
+background-image:url(++resource++collective.flowplayer.css/right.png);
+}
+a.nextPage.disabled, a.prevPage.disabled {
+visibility:hidden;
+}
+}
+
+
+/* - ++resource++qi.portlet.TagClouds.stylesheets/tagclouds.css - */
+@media screen {
+/* https://sfari.org/portal_css/++resource++qi.portlet.TagClouds.stylesheets/tagclouds.css?original=1 */
+.cloud1 {
+font-size: 1.0em;
+}
+.cloud2 {
+font-size: 1.3em;
+}
+.cloud3 {
+font-size: 1.6em;
+}
+.cloud4 {
+font-size: 1.9em;
+}
+.cloud5 {
+font-size: 2.2em;
+}
+.cloud6 {
+font-size: 2.5em;
+}
+.cloud7 {
+font-size: 2.8em;
+}
+
+}
+
+
+/* - ++resource++plone.formwidget.autocomplete/jquery.autocomplete.css - */
+@media screen {
+/* https://sfari.org/portal_css/++resource++plone.formwidget.autocomplete/jquery.autocomplete.css?original=1 */
+.ac_results {
+padding: 0px;
+border: 1px solid black;
+background-color: white;
+overflow: hidden;
+z-index: 99999;
+}
+.ac_results ul {
+width: 100%;
+list-style-position: outside;
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.ac_results li {
+margin: 0px;
+padding: 2px 5px;
+cursor: default;
+display: block;
+font: menu;
+font-size: 12px;
+line-height: 16px;
+overflow: hidden;
+}
+.ac_loading {
+background: white url('indicator.gif') right center no-repeat;
+}
+.ac_odd {
+background-color: #eee;
+}
+.ac_over {
+background-color: #0A246A;
+color: white;
+}
+
+}
+
+
+/* - ++resource++plone.formwidget.contenttree/contenttree.css - */
+@media screen {
+/* https://sfari.org/portal_css/++resource++plone.formwidget.contenttree/contenttree.css?original=1 */
+.contenttreeWidget {
+bottom: 3.5em;
+height: auto;
+left: 0px;
+overflow-y: auto;
+margin: 0em 1em;
+position: absolute;
+right: 0px;
+top: 6em;
+width: auto;
+border: 1px solid #8CACBB;
+}
+.contenttreeWidget li {
+display: block;
+padding-left: 1em;
+}
+.contenttreeWidget .navTreeCurrentItem {
+font-weight: bold;
+}
+.contenttreeWidget .navTreeCurrentItem li {
+font-weight: normal;
+}
+.contenttreeWidget li a {
+border-bottom: solid 1px transparent;
+}
+.contenttreeWidget .navTreeItem a {
+border: none;
+display: block;
+text-decoration: none;
+padding-top: 0.2em;
+padding-bottom: 0.25em;
+}
+.contenttreeWidget .navTreeItem a:hover {
+border: 1px dotted #205C90;
+}
+.contenttreeWidget li.navTreeCurrentItem {
+border: none !important;
+background-color: transparent;
+}
+.contenttreeWidget li.navTreeCurrentItem > a,
+.contenttreeWidget li.navTreeCurrentItem > a:hover {
+border: none;
+background-color: #205C90;
+color: #fff !important;
+}
+/* */
+* html .contentTreeWidget li.navTreeCurrentItem a,
+* html .contentTreeWidget li.navTreeCurrentItem a:hover {
+height: 1.6em;
+}
+.contenttreeWindow {
+display: none;
+position: fixed;
+_position: absolute;
+background-color: white;
+z-index: 100;
+}
+.contenttreeWindow h2 {
+display: block;
+top: 0px;
+margin: 0px;
+}
+.contenttreeWindowHeader {
+padding: 1em;
+}
+.contenttreeWindowActions {
+position: absolute;
+width: 100%;
+top: auto;
+bottom: 0px;
+padding: 1em;
+}
+.contenttreeWindowBlocker {
+z-index: 99;
+width: 100%;
+height: 100%;
+opacity: 0.4;
+background-color: black;
+top: 0px;
+left: 0px;
+position: fixed;
+_position: absolute;
+_top: expression(eval((document.body.scrollTop)?document.body.scrollTop:document.documentElement.scrollTop));
+}
+.option {
+display: block;
+}
+}
+
+
+/* - ++resource++xdv_themes/sfari/styles/main.css - */
+@media all {
+/* https://sfari.org/portal_css/++resource++xdv_themes/sfari/styles/main.css?original=1 */
+/* */
+body {
+color: #666766;
+background-color: #6f727b;
+margin: 0;
+font-family: Arial, sans-serif;
+}
+#main {
+background: #ffffff url('https://sfari.org/sfari/footer.gif') no-repeat left bottom;
+width: 975px;
+margin: 50px auto 5px;
+padding-bottom: 90px;
+-webkit-box-shadow: 0 0 11px 3px #4A4D51;
+box-shadow: 0 0 11px 3px #4A4D51;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-family: Arial, sans-serif;
+color: #394da1;
+}
+h1 {
+font-size: 24px;
+line-height: 31px;
+}
+h2 {
+font-size: 17px;
+color: #333333;
+font-weight: bold;
+margin-bottom: 13px;
+}
+a,
+a:visited {
+color: #394da1;
+border: none;
+text-decoration: none;
+}
+a:hover {
+color: #394da1;
+text-decoration: underline;
+}
+img {
+border: none;
+}
+hr {
+background-color: transparent;
+height: 0;
+border-style: dashed none none none;
+border-top: 1px dashed #A8A5A5;
+margin: 7px 0;
+}
+#portal-columns {
+width: 933px;
+margin: 0 21px;
+}
+#portal-column-two {
+width: 182px;
+}
+#content {
+margin: 2px 3px 26px;
+font-size: 13px;
+}
+#content dd {
+margin: 0;
+padding: 10px;
+line-height: 14px;
+color: #231f20;
+}
+dl.captioned,
+img.image-left,
+img.image-right,
+.captionedImage {
+border: 3px solid #e7e7e7;
+margin-top: 4px;
+}
+table.captionedImage {
+width: 100px;
+}
+table.captionedImage .embed {
+border: none;
+}
+.image-left {
+margin: 0 15px 15px 0;
+}
+.image-right {
+margin: 0 0 15px 15px;
+}
+.captionedImage.left {
+margin-right: 15px;
+}
+.captionedImage.right {
+margin-left: 15px;
+}
+.captionedImage img,
+.captioned img {
+border: none !important;
+}
+.captionedImage {
+line-height: 14px;
+color: #231f20;
+font-size: 11px;
+}
+.captionedImage img {
+padding-bottom: 10px;
+}
+.captionedImage p {
+padding: 0 10px;
+}
+.captionedImage p img {
+margin-right: -10px;
+}
+.captionCell {
+padding: 10px;
+}
+#content .discreet {
+color: #ababab;
+font-size: 13px;
+}
+.embed {
+border: 3px solid #f7be16;
+padding: 2px;
+display: inline-block;
+}
+.superscript {
+display: block;
+font-style: italic;
+text-align: right;
+}
+/* */
+#portal-logo {
+margin: 21px 0 0 11px;
+}
+#simons-logo {
+float: right;
+margin: 24px 7px 0 0;
+}
+/* */
+#portal-searchbox {
+margin-top: 16px;
+padding-right: 8px;
+position: relative;
+}
+#portal-searchbox #searchGadget {
+background: url('/sfari/search_btn.png') no-repeat 137px 1px;
+border: 2px solid #c3c2c0;
+padding: 1px 20px 1px 8px;
+width: 125px;
+color: #929190;
+}
+#portal-searchbox #searchGadget::-moz-placeholder {
+font-size: 10px;
+font-style: italic;
+}
+#portal-searchbox #searchGadget::-webkit-input-placeholder {
+font-size: 10px;
+font-style: italic;
+}
+#portal-searchbox #searchGadget:-ms-input-placeholder {
+font-size: 10px;
+font-style: italic;
+}
+#portal-searchbox #searchGadget::input-placeholder {
+font-size: 10px;
+font-style: italic;
+}
+#portal-searchbox .searchButton {
+position: absolute;
+background-color: transparent;
+border: none;
+margin-left: -20px;
+width: 18px;
+height: 19px;
+cursor: pointer;
+}
+#portal-searchbox .searchSection {
+text-align: right;
+margin-top: 4px;
+}
+#portal-searchbox .searchSection label,
+#portal-searchbox .searchSection label:hover {
+font-size: 9px;
+font-style: italic;
+color: #999999;
+}
+.LSResult {
+z-index: 60;
+}
+/* */
+#portal-globalnav {
+background-color: transparent;
+height: 30px;
+margin-bottom: 17px;
+z-index: 20;
+display: -webkit-flex;
+display: -ms-flex;
+display: flex;
+}
+#portal-globalnav > li {
+-webkit-flex-grow: 1;
+-ms-flex-grow: 1;
+flex-grow: 1;
+}
+#portal-globalnav li {
+position: relative;
+}
+#portal-globalnav a,
+#portal-globalnav a:visited,
+#portal-globalnav .selected a {
+text-transform: uppercase;
+color: #525251;
+border-top: 10px solid #f5bc18;
+border-right: none;
+margin-right: 3px;
+text-align: center;
+padding: 7px 10px;
+z-index: 4;
+letter-spacing: 0.3px;
+}
+#portal-globalnav li > a,
+#portal-globalnav li.selected > a {
+background-color: transparent;
+}
+#portal-globalnav .selected a {
+border-top: 10px solid #394da1;
+}
+#portal-globalnav a:hover,
+#portal-globalnav .hover a,
+#portal-globalnav .selected a:hover {
+border-top: 10px solid #394da1;
+color: #525251;
+background-color: transparent;
+text-decoration: none;
+}
+#portal-globalnav > li:last-of-type a {
+margin-right: 0;
+}
+#portal-globalnav ul.submenu,
+#portal-globalnav li.selected ul.submenu {
+background-color: rgba(224, 224, 224, 0.9);
+border: none;
+margin-top: -27px;
+padding: 27px 0 10px;
+z-index: 3;
+width: calc(100% - 3px);
+}
+#portal-globalnav li ul ul {
+margin-left: 15em;
+}
+#portal-globalnav ul.submenu ul {
+background-color: rgba(224, 224, 224, 0.9);
+padding-top: 0;
+border: none;
+right: 0;
+margin-right: -15em;
+}
+#portal-globalnav ul.submenu li {
+float: none;
+width: auto;
+min-width: 20px;
+}
+#portal-globalnav ul.submenu a,
+#portal-globalnav ul a {
+border: none;
+padding: 5px 30px 5px 10px;
+width: auto;
+text-align: left;
+}
+#portal-globalnav ul a.hasDropDown {
+background: url("/sfari/dropdown_arrow.png") no-repeat right 5px center;
+position: relative;
+}
+.mobileMenuOpen {
+display: none;
+width: 36px;
+height: 36px;
+position: absolute;
+right: 0;
+top: 0;
+z-index: 2;
+}
+.mobileMenuOpen::before {
+content: "+";
+color: #ffffff;
+font-size: 36px;
+}
+#portal-globalnav ul.submenu .hover,
+#portal-globalnav li.selected ul.submenu .hover,
+#portal-globalnav ul .hover,
+#portal-globalnav .selected ul .hover {
+background-color: transparent;
+}
+#portal-globalnav ul.submenu a:hover,
+#portal-globalnav li.selected ul.submenu a:hover,
+#portal-globalnav ul.submenu .hover > a,
+#portal-globalnav ul.submenu a.hasDropDown:hover,
+#portal-globalnav ul.submenu .hover > a.hasDropDown {
+border: none;
+background-color: #fdd158;
+}
+.link_has_kids {
+padding-left: 5px;
+}
+/* */
+#portal-personaltools {
+margin: 0 7px 20px 0;
+z-index: 55;
+}
+#anon-personalbar {
+background-color: #394fa0;
+margin: 0;
+}
+#anon-personalbar a {
+color: #ffffff;
+padding: 3px 10px;
+}
+#portal-personaltools.externalSiteAuth {
+display: none;
+}
+/* */
+#portal-breadcrumbs,
+#portal-breadcrumbs a {
+color: #999999;
+font-size: 10px;
+margin-bottom: 0;
+}
+#breadcrumbs-current {
+color: #666766;
+}
+.breadcrumbbox {
+display: inline-block;
+height: 4px;
+width: 4px;
+background-color: #989898;
+margin: 0 1px 1px -5px;
+position: relative;
+top: -3px;
+}
+/* */
+#portal-column-content .breadcrumbbox {
+margin-right: -1px;
+}
+/* */
+#footer,
+#site-footer {
+width: 938px;
+margin: 0 auto;
+height: 100px;
+color: #999999;
+}
+/* */
+#page #footer {
+width: auto;
+height: auto;
+}
+#portal-footer {
+background-color: transparent;
+float: left;
+padding: 0;
+margin: 0;
+font-size: 10px;
+}
+#portal-siteactions {
+float: right;
+}
+#portal-siteactions li {
+margin: 0;
+}
+#portal-siteactions a {
+color: #999999;
+padding: 0 5px;
+}
+/* */
+.portlet dt {
+background-color: transparent;
+color: #394da1;
+font-size: 18px;
+padding: 0;
+}
+.portlet,
+.portletStaticText {
+border-bottom: 1px dashed #a8a5a5;
+margin-bottom: 0;
+padding-top: 6px;
+}
+#portal-columns .portletItem {
+padding: 0 0 1em;
+}
+#portal-column-content {
+padding-right: 20px;
+}
+/* */
+#portal-columns .portletNavigationTree {
+padding-bottom: 12px;
+padding-top: 3px;
+}
+#portal-columns .portletNavigationTree li {
+border: none;
+}
+#portal-columns .portletNavigationTree a {
+color: #666666;
+padding: 1px 0;
+text-decoration: none;
+font-family: Arial, sans-serif;
+font-weight: bold;
+font-size: 13px;
+}
+#portal-columns .portletNavigationTree a:hover,
+#portal-columns .portletNavigationTree .navTreeCurrentItem {
+color: #394da1;
+background-color: transparent;
+}
+/* */
+.portlet-static-directors-picks p {
+margin: 0 0 5px;
+}
+.portlet-static-directors-picks a {
+color: #333333;
+font-size: 13px;
+font-weight: bold;
+}
+.portlet-static-directors-picks a:hover,
+.dpickhover {
+text-decoration: none;
+background: url('/sfari/more_triangle_big.png') no-repeat left 3px;
+margin-left: -12px;
+padding-left: 12px;
+display:inline-block;
+}
+/* */
+.portletMostViewedPortlet .title {
+float: left;
+border-bottom: 2px solid #d6d5d4;
+font-weight: bold;
+font-size: 19px;
+line-height: 15px;
+color: #394da1;
+width: 66px;
+}
+.portletMostViewedPortlet .title .small {
+font-size: 14px;
+color: #b2b1b2;
+padding-left: 5px;
+text-transform: lowercase;
+display:block;
+}
+.mostViewedTabs {
+float: right;
+margin-top: 15px;
+width: 104px;
+}
+.mostViewedTab {
+display: inline !important;
+color: #ffffff;
+font-size: 11px;
+cursor: pointer;
+float: left;
+}
+.mostViewedTab.current {
+color: #808285;
+font-weight: bold;
+}
+.article {
+background: url('/sfari/tabs.png') no-repeat left bottom;
+width: 38px;
+padding: 1px 10px 0 9px;
+}
+.article.current {
+background-position: left top;
+}
+.topic {
+background: url('/sfari/tabs.png') no-repeat right top;
+width: 26px;
+padding: 1px 16px 0 0;
+}
+.topic.current {
+background-position: right bottom;
+padding-right: 20px;
+}
+.mostViewedPanes {
+margin-top: 8px;
+width: 170px;
+word-wrap: break-word;
+}
+.portletMostViewedPortlet a {
+color: #333333;
+font-size: 13px;
+font-weight: bold;
+}
+/* */
+.portletMailChimp {
+padding-bottom: 20px;
+width: 170px;
+}
+.portletMailChimp-Newsletter dt {
+background: url('/sfari/newsletter.png') no-repeat 74px top;
+}
+.portletMailChimp-RFA dt {
+background: url('/sfari/newsletter.png') no-repeat 94px top;
+}
+#portal-column-two .portletMailChimp-RFA .portletHeader .large,
+#portal-column-two .portletMailChimp-Newsletter .portletHeader .large,
+#portal-column-two .portletMailChimp-RFA .portletHeader .small,
+#portal-column-two .portletMailChimp-Newsletter .portletHeader .small {
+float: none;
+margin: 0;
+}
+.portletMailChimp .portletHeader img {
+float: left;
+margin-bottom: -7px;
+}
+.portletMailChimp .large {
+float: left;
+max-width: 128px;
+padding: 5px 8px 0 0;
+display: block;
+line-height: 19px;
+}
+.portletMailChimp .small {
+clear: both;
+margin: 0 0 3px;
+font-size: 12px;
+color: #6d6e71;
+font-weight: normal;
+display: block;
+padding-top: 3px;
+}
+.portletMailChimp form {
+margin-top: 3px;
+}
+.portletMailChimp .field {
+margin-bottom: 3px;
+}
+.portletMailChimp .required {
+display: none;
+}
+.portletMailChimp .textType {
+width: 166px;
+border: 2px solid #dadad9;
+}
+.portletMailChimp input.context {
+float: right;
+background: transparent url('/sfari/more_triangle.png') no-repeat 0% 45%;
+padding-left: 9px;
+border: none;
+font-size: 10px;
+color: #989898;
+font-weight: bold;
+display: none;
+}
+.portletMailChimp label {
+display: none;
+}
+.portletMailChimp input.textType {
+text-align: center;
+color: #6d6e71;
+}
+/* */
+.template-author #portal-columns {
+margin-right: 0;
+width: 954px;
+}
+#author-right {
+width: 170px;
+padding-left: 25px;
+padding-top: 5px;
+}
+#author-related h2 {
+color: #394DA1;
+margin-bottom: 2px;
+}
+#author-related p {
+margin-bottom: 12px;
+line-height: 15px;
+}
+#author-related a {
+color: #666766;
+font-weight: bold;
+}
+.template-author #content {
+height: auto;
+overflow: hidden;
+}
+#author-display {
+width: 100%;
+}
+/* */
+div#main-column {
+margin: 10px 25px 0px;
+}
+#main-column #message {
+margin: 1em;
+margin-top: -.5em;
+padding: 1em;
+border: 2px solid #f5bc18;
+}
+#portal-breadcrumbs.wiki-breadcrumbs {
+margin-left: 25px;
+}
+#page div.table-of-contents {
+border: 1px solid #bcbec0;
+padding: 0.5em;
+padding-right: 1em;
+margin-left: 1em;
+float: right;
+}
+#page div.table-of-contents p.table-of-contents-heading {
+background-color: #394fa0;
+color: white;
+margin: -0.5em;
+margin-right: -1em;
+margin-bottom: 0.5em;
+padding: 0.5em;
+}
+#page table tr td input,
+#portal-column-content #page #editor input.button,
+input.Button,
+a.WriteButton,
+a.PreviewButton,
+a.DraftButton,
+div.Foot a.TabLink {
+/* */
+background-color: #F7BD16;
+border: medium none;
+color: #FFFFFF;
+cursor: pointer;
+float: left;
+font-size: 12px;
+font-weight: bold;
+margin-right: 5px;
+margin-bottom: 10px;
+padding: 3px 10px;
+}
+input.CommentButton,
+div.Foot a.TabLink {
+float: none;
+}
+div.Foot a.TabLink {
+margin-right: 0;
+}
+div.Tabs li.Active a.WriteButton {
+color: #ffffff;
+}
+a.WriteButton:hover,
+a.PreviewButton:hover,
+a.DraftButton:hover {
+text-decoration: none;
+}
+#page #page-history table tr td input {
+font-size: 12px;
+padding: 2px 10px;
+margin-top: -2px;
+float: none;
+}
+/* */
+#page #page-history table tr td.column3 input {
+display: inline-block;
+margin-top: 2px;
+width: 15px;
+}
+#page table tr td input[disabled] {
+cursor: default;
+background-color: #ccc;
+}
+#portal-column-content #page #editor textarea {
+margin-bottom: 15px;
+}
+#portal-column-content #page #editor input#editor-comment {
+width: 92%;
+}
+#portal-column-content #page #editor-help {
+border: 1px solid #bcbec0;
+padding: 0.5em;
+background-color: #efefef;
+}
+#page div.info-paging-info span.info-count-selector {
+display: block;
+}
+#page div.info-paging-info span.info-count-selector.info-count-selector-divider {
+display: inline;
+}
+#page #page-history {
+border: 1px dashed #a8a5a5;
+border-left: none;
+border-right: none;
+padding-top: 15px;
+}
+#page #page-history table {
+width: 100%;
+}
+#page #page-history table tr td {
+padding: 0em 0.5em;
+}
+#page #page-history table tr td.hcolumn3 {
+width: 18%;
+}
+#page #page-history table tr td.hcolumn5 {
+width: 40%;
+}
+#page span.diff-header {
+display: block;
+margin-bottom: 5px;
+}
+#page table.diff {
+border-collapse: separate;
+border-spacing: 2px;
+}
+#page table.diff tr {
+border: 1px solid red;
+}
+#page table.diff td {
+border: 1px solid white;
+margin: 10px;
+}
+#page table.diff td.diff-info {
+width: 50%;
+}
+#page table.diff td.diff-removed {
+background-color: #fdfbe1;
+}
+#page table.diff td.diff-added {
+background-color: #e1f0dd;
+}
+#page table.diff td.diff-removed span {
+background-color: #fbf28a;
+}
+#page table.diff td.diff-added span {
+background-color: #8fca77;
+}
+#page table.diff tr.diff-title {
+background-color: #c0c0c0;
+}
+#page table.diff td.diff-info div.diff-info-header {
+background-color: #e8e8e8;
+}
+/* */
+/* */
+div#anon-view-spacer,
+ul#page-view-controls,
+ul#user-view-controls,
+ul#investigator_tabs {
+background: none;
+border: none;
+padding-left: 6px;
+height: 27px;
+}
+ul#page-view-controls,
+ul#user-view-controls {
+margin-top: 10px;
+}
+ul#user-view-controls {
+padding-right: 6px;
+float: right;
+}
+ul#page-view-controls li,
+ul#user-view-controls li,
+ul#investigator_tabs li {
+margin: 0 0 0 6px;
+background-image: url('/sfari/investigator_tab.png');
+display: inline-block;
+float: left;
+border: 1px solid #bcbec0;
+border-bottom: none;
+-moz-border-radius-topright: 4px;
+-moz-border-radius-topleft: 4px;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+}
+ul#user-view-controls li {
+float: right;
+margin: 0 6px 0 0;
+}
+ul#page-view-controls li a,
+ul#user-view-controls li a,
+ul#investigator_tabs li a {
+padding: 3px 18px 0;
+text-align: center;
+background: none;
+color: white;
+font-size: 11px;
+height: 23px;
+display: block;
+font-weight: bold;
+white-space: nowrap;
+}
+ul#user-view-controls li a {
+padding: 3px 10px 0px;
+}
+ul#page-view-controls li a:hover,
+ul#user-view-controls li a:hover,
+ul#investigator_tabs li a:hover {
+text-decoration: underline;
+}
+ul#investigator_tabs li a.ithover {
+text-decoration: underline;
+}
+ul#page-view-controls li a.current,
+ul#user-view-controls li a.current,
+ul#investigator_tabs li a.current {
+background-image: url('/sfari/investigator_tab_current.png');
+color: #555555;
+text-decoration: none;
+height: 25px;
+font-size: 14px;
+padding: 3px 12px 0;
+}
+#post-tab-bar {
+border-top: 2px solid #bcbec0;
+height: 18px;
+background: url('/sfari/investigator_down.png') no-repeat;
+}
+#post-tab-wrapper {
+background: url('/sfari/investigator_down.png') no-repeat right;
+}
+ul#investigator_tabs li {
+font-weight: bold;
+padding-top:2px;
+height: 24px;
+}
+ul#investigator_tabs li a.current {
+font-size: 15px;
+height: 25px;
+}
+ul#investigator_tabs li a {
+font-size: 11px;
+}
+ul#investigator_tabs {
+margin-left: 4px;
+}
+/* */
+.investigatorsListing h2 {
+border: none;
+border-bottom: 1px dashed #c6c6c6;
+margin-right: 60px;
+margin-bottom: 8px;
+clear: both;
+}
+.investigatorsListing h2 span {
+background-color: white;
+display: inline-block;
+margin-bottom: -12px;
+}
+.investigatorsListing ul {
+vertical-align: top;
+float: left;
+width: 31%;
+margin-left: 0!important;
+list-style-type: none!important;
+padding-top: 10px;
+margin-bottom: 25px;
+}
+.investigatorsListing li {
+padding: 2px 0;
+}
+/* */
+.template-atct_edit #content .info {
+display: none;
+}
+/* */
+#contentview-user_data-change-password {
+display: none;
+}
+/* */
+div.cloudcontainer {
+font-size: 75%;
+}
+li.clouditem {
+display: inline-block;
+}
+.cloud1 {
+font-size: 80%;
+}
+.cloud2 {
+font-size: 95%;
+}
+.cloud3 {
+font-size: 110%;
+}
+.cloud4 {
+font-size: 125%;
+}
+.cloud5 {
+font-size: 140%;
+}
+.cloud6 {
+font-size: 155%;
+}
+.cloud7 {
+font-size: 170%;
+}
+/* */
+#portal-personaltools.externalSiteAuth {
+background: #394FA0;
+padding: 5px 0;
+}
+.externalSiteAuth a,
+.externalSiteAuth a:visited,
+.externalSiteAuth a:hover {
+padding: 3px 10px;
+color: #ffffff;
+}
+.externalSiteAuth #personaltools-rss {
+display: none;
+}
+/* */
+#livesearch-wrapper {
+font-size: 17px;
+padding: 15px 50px;
+}
+#in-page-search {
+float: right;
+width: 275px;
+}
+#in-page-search .portletItem {
+float: right;
+}
+#in-page-search input {
+width: 200px;
+font-size: 17px;
+margin-top: -3px;
+}
+#in-page-search .searchSection {
+display: none;
+}
+#livesearch-wrapper .LSResult {
+right: auto;
+}
+#in-page-search .moin-hide {
+display: none;
+}
+@media screen and (max-width:975px) {
+body {
+background-color: #ffffff;
+}
+#main,
+#footer,
+#site-footer {
+background: #ffffff;
+width: 100%;
+margin-top: 0;
+box-shadow: none;
+}
+.template-homepage_view #portal-columns {
+width: 98% !important;
+margin: 0 1%;
+}
+.imagePortlet img {
+width: 100%;
+max-width: 215px;
+height: auto;
+}
+.imagePortlet .hover {
+width: 100% !important;
+}
+#features-box {
+margin: 0 auto 45px !important;
+float: none !important;
+}
+.template-homepage_view #parent-fieldname-text {
+position: static !important;
+width: auto !important;
+clear: both;
+}
+}
+@media screen and (max-width:720px) {
+#features-box,
+.slideshow,
+.slideContainer {
+width: 100% !important;
+border: none !important;
+}
+.slideshow-nav {
+display: none !important;
+}
+.slideshow .imageCaption {
+width: 100% !important;
+margin: 0 !important;
+left: 0;
+bottom: 25px;
+}
+.imageCaption .imageTitle {
+font-size: 14px;
+}
+#features-box #prev,
+#features-box #next {
+height: 45px !important;
+background-color: transparent !important;
+display: block !important;
+}
+#home-left-slot,
+#home-right-slot,
+#home-bottom-slot > div {
+width: 100% !important;
+clear: both;
+float: none !important;
+margin: 0 !important;
+}
+.template-homepage_view #parent-fieldname-text {
+width: 100% !important;
+}
+}
+@media screen and (max-width:650px) {
+.desktop {
+display: none;
+}
+img {
+max-width: 100%;
+width: auto;
+height: auto;
+}
+#portal-logo {
+float: none;
+}
+#portal-logo img {
+max-width: 75%;
+margin-top: 5px;
+}
+#simons-logo {
+float: left;
+margin: 12px 10px 0;
+}
+#features-box {
+height: 347px !important;
+}
+/* */
+#nav-toggle {
+display: block;
+background-color: #444444;
+width: 53px;
+height: 48px;
+padding: 3px 3px 0 0;
+position: absolute;
+top: 0;
+right: 0;
+cursor: pointer;
+}
+#nav-toggle .bar {
+margin: 7px 0 0 12px;
+width: 65%;
+background-color: #ffffff;
+height: 5px;
+}
+#portal-globalnav {
+display: none;
+background-color: #4455A3;
+z-index: 31;
+}
+#portal-globalnav.displayNav {
+display: block;
+}
+#portal-globalnav,
+#portal-globalnav li,
+#portal-globalnav li a {
+float: none;
+font-size: 15px;
+background-color: #4455A3;
+}
+#portal-globalnav li a,
+#portal-globalnav li a:visited,
+#portal-globalnav li.selected > a {
+color: #ffffff !important;
+font-weight: normal;
+padding: 9px 20px !important;
+border-top: none !important;
+margin-right: 0;
+text-align: left;
+}
+#portal-globalnav li:hover ul,
+#portal-globalnav li li:hover ul,
+#portal-globalnav li li li:hover ul,
+#portal-globalnav li li li li:hover ul,
+#portal-globalnav li.sfhover ul,
+#portal-globalnav li li.sfhover ul,
+#portal-globalnav li li li.sfhover ul,
+#portal-globalnav li li li li.sfhover ul {
+left: -999px;
+}
+.link_has_kids {
+vertical-align: text-top;
+padding-top: 2px;
+}
+#portal-globalnav ul a.hasDropDown {
+background: none;
+}
+.mobileMenuOpen {
+display: block;
+}
+.displayMenu > a > .mobileMenuOpen::before {
+content: "_";
+line-height: 0px;
+padding-left: 2px;
+}
+#portal-globalnav li {
+display: block;
+float: none;
+border-bottom: 1px solid #444;
+}
+#portal-globalnav li.selected > a,
+#portal-globalnav li.selected > a:hover {
+border: none !important;
+}
+#portal-globalnav .selected.hover ul.submenu {
+display: none;
+}
+#portal-globalnav li ul ul {
+left: -999px;
+margin: 0 0 0 0;
+}
+#portal-globalnav li ul ul a {
+padding-left: 40px !important;
+}
+#portal-globalnav li ul ul ul a {
+padding-left: 60px !important;
+}
+#portal-globalnav .selected.displayMenu ul.submenu,
+#portal-globalnav .plain.displayMenu ul.submenu,
+#portal-globalnav .displayMenu > ul.navTree {
+left: 0;
+right: auto;
+position: static !important;
+display: block !important;
+width: 94%;
+border: none;
+width: 100%;
+padding: 0;
+margin-top: 0;
+}
+#portal-globalnav .submenu li {
+border: none;
+}
+#portal-globalnav li.selected ul.submenu a,
+#portal-globalnav li.selected ul.submenu a:hover,
+#portal-globalnav li.plain ul.submenu a,
+#portal-globalnav li.plain ul.submenu a:hover {
+padding-right: 45px !important;
+font-weight: normal;
+background-color: #F1BE33 !important;
+color: #ffffff !important;
+border-bottom: 1px solid #777777;
+}
+}
+@media screen and (max-width:550px) {
+#features-box {
+height: 347px !important;
+}
+}
+@media screen and (max-width:450px) {
+#features-box {
+height: 237px !important;
+}
+}
+@media screen and (max-width:350px) {
+#features-box {
+height: 183px !important;
+}
+}
+@media screen and (max-width:320px) {
+#main,
+#footer,
+#site-footer {
+width: 320px;
+}
+}
+}

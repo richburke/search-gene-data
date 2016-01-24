@@ -1,0 +1,20 @@
+
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+
+  <h1 id="parent-fieldname-title" class="documentFirstHeading">
+      Gene Data
+  </h1>
+  <div id="content-core">
+    <div class="" id="parent-fieldname-text">
+        <p>Since its launch in 2003, SFARI has supported over 350 investigators studying autism-related research in the U.S. and abroad. Research projects include studies at the genetic, molecular, cellular, circuit and behavioral levels, in addition to clinical and translational studies.</p>&#13;
+    </div>
+
+    <div id="root"></div>
+  </div>
+
+  <script type="text/javascript" src="{% static 'search_gene_data/bundle.js' %}" charset="utf-8"></script>
+
+{% endblock content %}

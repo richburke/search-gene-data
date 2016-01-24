@@ -1,0 +1,155 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<head lang="en">
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" text="text/css" href="{% static 'search_gene_data/styles/bootstrap.css' %}">
+  <link rel="stylesheet" text="text/css" href="{% static 'search_gene_data/styles/fonts/font-awesome/css/font-awesome.css' %}">
+  <link rel="stylesheet" text="text/css" media="all" href="{% static 'search_gene_data/styles/simons.css' %}">
+  <link rel="stylesheet" text="text/css" href="{% static 'search_gene_data/styles/main.css' %}">
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://sfari.org/favicon.ico" /><link rel="apple-touch-icon" href="https://sfari.org/touch_icon.png" />
+
+  <link rel="home" href="https://sfari.org" title="Front page" />
+  <link rel="contents" href="https://sfari.org/sitemap" title="Site Map" />
+  <link rel="alternate" href="https://sfari.org/RSS" title="RSS 1.0" type="application/rss+xml" />
+  <link rel="search" href="https://sfari.org/search_form" title="Search this site" />
+
+  <title>Gene Data — SFARI</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+  <body class="template-document_view portaltype-document section-gene-data">
+    <div id="main">
+      <div id="header">
+        <div id="nav-toggle">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <div id="logos">
+          <a id="portal-logo" title="Home" accesskey="1" href="https://sfari.org">
+            <img src="https://sfari.org/sfari_logo.png" alt="" title="" height="65" width="500" />
+          </a>
+          <a href="http://www.simonsfoundation.org" id="simons-logo">
+            <img src="https://sfari.org/simons_logo.png" alt="Simons Foundation" />
+          </a>
+        </div>
+        <div id="portal-searchbox"></div>
+
+      </div>
+      <div class="visualClear"></div>
+      <div id="portal-personaltools-wrapper">
+
+        <h5 class="hiddenStructure">Personal tools</h5>
+
+        <dl class="actionMenu deactivated" id="portal-personaltools">
+          <dt id="anon-personalbar">
+          </dt>
+        </dl>
+      </div>
+
+      <ul id="portal-globalnav">
+        <li id="portaltab-funding" class="selected">
+          <a href="#" class="mainTabContent">
+             <span>Gene Data</span>
+             <span class="mobileMenuOpen"></span>
+          </a>
+        </li>
+
+        <li id="portaltab-about-sfari" class="plain">
+          <a href="https://sfari.org/about-sfari" class="mainTabContent hasDropDown">
+             <span>About SFARI</span>
+             <span class="mobileMenuOpen"> </span>
+          </a>
+
+          <ul class="submenu">
+              <li class="navTreeItem visualNoMarker">
+                <a href="https://sfari.org/about-sfari/directors-letter" class="state-published">
+                    Director's Letter
+                </a>
+              </li>
+
+              <li class="navTreeItem visualNoMarker">
+                <a href="https://sfari.org/about-sfari/staff" class="state-published">
+                  Our Team
+                </a>
+              </li>
+
+              <li class="navTreeItem visualNoMarker">
+                <a href="https://sfari.org/about-sfari/advisors" class="state-published">
+                  Advisors
+                </a>
+              </li>
+
+
+              <li class="navTreeItem visualNoMarker">
+                <a href="https://sfari.org/about-sfari/contact-us" class="state-published">
+                  Contact Us
+                </a>
+              </li>
+
+              <li class="navTreeItem visualNoMarker">
+                <a href="https://sfari.org/about-sfari/press-room" class="state-published">
+                  Press Room
+                </a>
+              </li>
+
+              <li class="navTreeItem visualNoMarker">
+                <a href="https://sfari.org/about-sfari/career-opportunities" class="state-published">
+                  Career Opportunities
+                </a>
+              </li>
+            </ul>
+
+          </li>
+        </ul>
+
+      <table id="portal-columns">
+        <tbody>
+          <tr>
+            <td id="portal-column-content">
+              <div id="portal-breadcrumbs">
+                <span class="breadcrumbbox"></span>
+                <span id="breadcrumbs-home">
+                    <a href="https://sfari.org">Home</a>
+                    <span class="breadcrumbSeparator">
+                        &gt;
+                    </span>
+                </span>
+                <span id="breadcrumbs-1" dir="ltr">
+                  <span id="breadcrumbs-current">Gene Data</span>
+                </span>
+              </div>
+              <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+                <dt>Info</dt>
+                <dd></dd>
+              </dl>
+
+              <div id="content">
+                {% block content %}
+                {% endblock content %}
+              </div>
+
+              <div id="related-items"></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="footer">
+      <ul id="portal-siteactions">
+        <li id="siteaction-termsandconditions">
+          <a href="https://sfari.org/terms-and-conditions" accesskey="" title="Terms &amp; Conditions">
+            Terms &amp; Conditions
+          </a>
+        </li>
+      </ul>
+
+    <div id="portal-footer">© Copyright 2016 Simons Foundation</div>
+  </div>
+  
+</body>
+</html>

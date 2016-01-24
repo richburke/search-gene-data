@@ -1,0 +1,9 @@
+.DS_Store
+*.DS_Store
+*.idea
+node_modules/*
+public/bundle.js
+public/bundle.js.map
+resources/*.json
+resources/*.docx
+assets/.DS_Store
