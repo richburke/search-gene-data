@@ -3,23 +3,18 @@ import DataFormatter from './DataFormatter';
 import SearchUtils from './SearchUtils';
 import Retriever from './Retriever';
 
-const UPDATE_INPUT_VALUE = 'UPDATE_INPUT_VALUE';
-const CLEAR_SUGGESTIONS = 'CLEAR_SUGGESTIONS';
-const MAYBE_UPDATE_SUGGESTIONS = 'MAYBE_UPDATE_SUGGESTIONS';
-const LOAD_SUGGESTIONS_BEGIN = 'LOAD_SUGGESTIONS_BEGIN';
-const CLEAR_LOCATION = 'CLEAR_LOCATION';
-const UPDATE_UNITS = 'UPDATE_UNITS';
+const UPDATE_SEARCH_VALUE = 'UPDATE_SEARCH_VALUE';
+const CLEAR_SEARCH = 'CLEAR_SEARCH';
+const UPDATE_FIELD_TYPE = 'UPDATE_FIELD_TYPE';
 const RETRIEVE_VALUES = 'RETRIEVE_VALUES';
 const UPDATE_DATA = 'UPDATE_DATA';
 
 const initialState = {
-  value: '',
+  fieldType: 'name',
+  search: '',
   suggestions: [],
   isLoading: false,
-  isRetrieving: true,
-  location: '',
   haveData: false,
-  fieldType: 'name',
   raw: [],
   display: []
 };
@@ -37,47 +32,10 @@ function dispatchUpdateDataAction(response) {
 
 function reducer(state = initialState, action = {}) {
   switch (action.type) {
-    case UPDATE_INPUT_VALUE:
-      // if (SearchUtils.hasMatch(Retriever.getLocations(), action.value)) {
-      //   Retriever.retrieveLocationData(action.value, dispatchUpdateWeatherDataAction);
-      //
-      //   return {
-      //     ...state,
-      //     value: action.value,
-      //     location: action.value
-      //   };
-      // }
-
+    case UPDATE_SEARCH_VALUE:
       return {
         ...state,
-        value: action.value
-      };
-
-    case CLEAR_SUGGESTIONS:
-      return {
-        ...state,
-        suggestions: []
-      };
-
-    case LOAD_SUGGESTIONS_BEGIN:
-      return {
-        ...state,
-        isLoading: true
-      };
-
-    case MAYBE_UPDATE_SUGGESTIONS:
-      // Ignore suggestions if input value changed
-      if (action.value !== state.value) {
-        return {
-          ...state,
-          isLoading: false
-        };
-      }
-
-      return {
-        ...state,
-        suggestions: action.suggestions,
-        isLoading: false
+        search: action.value
       };
 
     case UPDATE_DATA:
@@ -85,31 +43,32 @@ function reducer(state = initialState, action = {}) {
         ...state,
         raw: action.raw,
         display: action.display,
-        haveData: true
+        haveData: true,
+        isLoading: false
       };
 
-    case UPDATE_UNITS:
+    case UPDATE_FIELD_TYPE:
       return {
         ...state,
-        units: action.value
+        fieldType: action.value
       };
 
-    case CLEAR_LOCATION:
+    case CLEAR_SEARCH:
       return {
         ...state,
-        value: '',
-        location: '',
+        search: '',
         haveData: false,
-        raw: {},
-        display: {}
+        isLoading: false,
+        raw: [],
+        display: []
       };
 
     case RETRIEVE_VALUES:
-      Retriever.retrieveData(state.fieldType, state.value, dispatchUpdateDataAction);
+      Retriever.retrieveData(state.fieldType, state.search, dispatchUpdateDataAction);
 
       return {
         ...state,
-        isRetrieving: true
+        isLoading: true
       };
 
     default:

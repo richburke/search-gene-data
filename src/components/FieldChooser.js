@@ -13,7 +13,7 @@ class FieldChooser extends React.Component {
         },
         {
           value: 'chrom',
-          name: 'Chrom',
+          name: 'Chromosome',
           selected: false
         }
       ]
@@ -22,6 +22,11 @@ class FieldChooser extends React.Component {
 
   componentDidMount() {
     const {store} = this.context;
+    this.unsubscribe = store.subscribe(() => this.forceUpdate());
+  }
+
+  componentWillUnmount() {
+    this.unsubscribe();
   }
 
   update(value) {
@@ -38,7 +43,7 @@ class FieldChooser extends React.Component {
 
     const {store} = this.context;
     store.dispatch({
-      type: 'UPDATE_FIELD_CHOICE',
+      type: 'UPDATE_FIELD_TYPE',
       value
     });
   }
@@ -53,19 +58,22 @@ class FieldChooser extends React.Component {
       let value = item.value;
       let name = item.name;
       let selected = store_state.fieldType === value;
-      let key = 'units' + index;
+      let key = 'field-types-' + index;
 
       return (
         <label className={"btn btn-default " + (selected ? 'active' : '')}>
-          <input type="radio" name="units" value={value} key={key} checked={selected} onChange={this.update.bind(this, value)} />{name}
+          <input type="radio" name="field-types" value={value} key={key} checked={selected} onChange={this.update.bind(this, value)} />{name}
         </label>
       );
     });
 
     return (
-      <div className="btn-group units-group pull-right" data-toggle="buttons">
-        {options}
-     </div>
+      <div className="field-types-group">
+        <label className="filter-label">Filter by</label>
+        <div className="btn-group" data-toggle="buttons">
+          {options}
+        </div>
+      </div>
     );
   }
 }

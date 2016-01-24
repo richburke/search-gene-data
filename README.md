@@ -1,28 +1,29 @@
 
 # Search Gene Data
 
-Searches gene data for matches on
+Searches gene data based upon supplied criteria.
 
 ### How to use
-
+1. Choose the field you'd like to filter on, either _name_ or _chromosome_.
+2. Enter a value into the input box.  Once you enter a value with a length greater than 3 characters, you'll see the option to initiate your search.
+3. Sort on the resulting dataset by clicking the column headers.
+4. If you wish, clear the search by clicking the _(X)_ and starting again.
 
 ### Deployment instructions
-sudo easy_install pip
-sudo pip install Django mysqlclient
+#### Installing server dependencies
+Ensure that you have pip installed.  If not, type `sudo easy_install pip`.
+
+The most straightforward method for installing the server dependencies is to navigate to the root of the Django project, then enter `pip install -r requirements.txt`.
+
+#### Installing client dependencies
+Navigate to the root directory.
+Run `npm install`.
+
+#### Running the project
+Open up 2 console windows.  In the first, navigate to the root of the Django project and type `python manage.py runserver`.  In the second, in the root of the project, enter `webpack -w`.
 
 ### To dos
-1.
+1. Add export functionality, as a .csv, .xls, or .json file.
+2. Add filtering on a resulting dataset.
 
-
-grant all privileges on *.* to 'admin'@'localhost';
-grant select on *.* to 'web'@'localhost';
-
-CREATE TABLE `ref_gene_data` (
-  `name` varchar(16) NOT NULL,
-  `chrom` varchar(32) NOT NULL,
-  `tx_end` bigint(20) unsigned NOT NULL,
-  `tx_start` bigint(20) unsigned NOT NULL,
-  `insert_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  KEY `index_name` (`name`),
-  KEY `index_chrom` (`chrom`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+### Screenshots
