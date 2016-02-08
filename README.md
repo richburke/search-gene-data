@@ -23,7 +23,7 @@ Run `npm install`.
 Open up 2 console windows.  In the first, navigate to the root of the Django project and type `python manage.py runserver`.  In the second, in the root of the project, enter `webpack -w`.
 
 ### Design choices
-Aside from the use of React, perhaps the biggest design choice involved the use of Griddle--a grid component implemented in React.  The data and the functionality desired (sorting, paging) lends itself well to a grid, and frankly there's reason to reinvent a solution when perfectly good and vetted solutions already exist.
+Aside from the use of React, perhaps the biggest design choice involved the use of Griddle--a grid component implemented in React.  The data and the functionality desired (sorting, paging) lends itself well to a grid, and frankly there's no reason to reinvent a solution when perfectly good and vetted solutions already exist.
 
 ### To dos
 1. Add export functionality, as a `.csv`, `.xls`, or `.json` file.
